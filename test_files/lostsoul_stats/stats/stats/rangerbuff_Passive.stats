@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="df9f2ea5-26c1-4c30-ad20-2c58be390154" />
+        <field name="Name" type="NameTableFieldDefinition" value="SummonHelpDistract" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf7faf93bg0038gdd0ag2d65ga930ec87c9f1" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h517fb833g8a7fg5192gd7e8g58174fffef7e" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Status_Distracted" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_Help_Attack_Action)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

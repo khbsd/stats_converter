@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="617c048e-6588-4e38-b1f3-fbd34456c25f" />
+        <field name="Name" type="NameTableFieldDefinition" value="WEREWOLFSPAWN" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2b01b25bgcf46gf5b0g0b51g53e5b2553f27" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hac5b7abbg9bfdgf790g65b5g83e6951ac516" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Wolf_InfectiousBite" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Remove_Werewolf)" />
+        <field name="Passives" type="StringTableFieldDefinition" value="VS_Background_Werewolf" />
+        <field name="StackId" type="StringTableFieldDefinition" value="WEREWOLFSPAWN" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

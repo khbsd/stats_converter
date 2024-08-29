@@ -1,0 +1,700 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e078e210-b9ba-48e5-afe3-c5eb91ba8545">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="070c1278-e709-4117-b661-f2e163cd452e" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_Bag" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="200845ed-79fb-45ad-9c82-31569d84ec8f" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c1f38978-e0f6-4304-a8f3-93f2822feea6" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="4c5217d8-0232-4592-9e32-2fd729123f53" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0.1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ab350179-8969-426e-a7fc-b58a62137a17" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_Bag_Com" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="200845ed-79fb-45ad-9c82-31569d84ec8f" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d5e0ef97-c82c-4bf4-b744-a53755839af6" />
+        <field name="ValueUUID" type="GuidObjectTableFieldDefinition" value="4c5217d8-0232-4592-9e32-2fd729123f53" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0.1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="432a0245-8d59-4bd3-892f-dd9eebf5c4ed" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Shar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6db4fe7f-3e96-4c30-939e-06561a848428" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b75126e7-93e2-418c-8665-1b02abc10d32" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Bhaal" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="779dd0c8-8177-48d9-b955-3148877f7634" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="499fd849-5511-460a-9161-127dfa39c722" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Selune" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="95f852e9-f3f4-4c5c-999f-a25bc2cd089b" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4459a086-cc0e-4d76-9c5d-7d206e351e2b" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Lathander" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="8e937ad0-fdcf-49c1-8741-4e7173752c05" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3dd5bdf1-0880-4e7e-8e41-7a58dfef436b" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Tyr" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2058b099-4745-40fa-a7d1-50ec552caa78" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4b45b33e-7e8e-4019-a035-12fdbb00edd1" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Velsharoon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="92e24d31-8e44-4348-98b3-de78f60977c7" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="952f2780-6503-4629-9f64-c6a716d47bb2" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Mask" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="fed10d1a-1897-43c3-ba27-876ba3a0974a" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="33402978-38ec-4a44-9ce5-4c531aa099cf" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Cyric" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6ac48947-96bd-422f-80a0-f4087e6beb97" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="15e53488-7204-4f74-a82e-421f268f53aa" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Eilistrae" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="81588ae2-1ed5-4569-be17-6cd5b1f108ec" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e2b92d0-d876-4a9e-bcd6-8c454127c8e8" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Silvanus" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="4aba1e11-df9c-44da-80ad-b3fe19be0f89" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c5de04c0-e9a9-4598-8f0f-7c5ba49a0987" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Illmater" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="42dc4a72-a829-4666-ae35-01677c637277" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f03d5abc-7b4e-4b39-8427-57210a14d186" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Kelemvor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6344ad21-2b25-4343-b0ea-ebe55bcd2954" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ba5e50c3-9753-46b8-b4ec-9be5eacd7dc2" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Tymora" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1a324ac2-cf5d-4a20-9f1f-077b16322a74" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fcfe060d-7b34-48ef-82a7-bc115d13c709" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Tempus" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b7ef3232-44d6-4bb7-8421-eddefd2ac92f" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="586bfd50-82b2-47bb-ab50-24dbbc1592a8" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Mystra" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="4860d214-6d84-4625-bff4-53e13fb989e0" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d0d68b8c-2c24-43c5-8918-e6b448f13be9" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Sune" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="feb53bf4-8c85-4904-84f8-bbf411979c53" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a06c24a1-3f3d-4932-87bd-9cef2148b0a3" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Myrkull" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c0f720d3-5a5b-461a-8d99-9bea82f68f14" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1435d975-8c85-4f83-9e56-d9ca0af9944d" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Bane" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="0e841baa-db6f-41b3-8b65-b8cb18bb288d" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="88e02e96-a506-4c42-9867-d0f05a3dd170" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Lolth" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b8d9493b-166d-418e-9859-a536ec25771f" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e878058c-c658-4afb-92a7-fdf2e0f14f44" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Oghma" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="927e9c92-3d22-45ee-aa20-1c809e58f81e" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="baa2f9b0-6708-4c55-8362-d7402cc97576" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Mielikki" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1f31437c-06b3-4003-97f3-c2dbc1302b87" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ec231332-c2ee-4967-b0fd-6e6df4bf0c9c" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Amaunator" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9208fdd3-858b-4cbd-8b83-d8aaa8839d6c" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5a13ba5f-5c97-4b0f-8ef1-181e715c6906" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Talona" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e8ae378c-a934-49a4-9027-60f6254170f6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="30958955-6fda-4bad-b7df-a6bfcb97ebcf" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Loviatar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="efeee253-7269-495d-8940-02d70bb3b70c" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2c8e991a-74b5-4609-ae54-4451465d23b7" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Yondalla" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="95ef55d6-f455-40d5-9731-95e629f2d06c" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b044471a-91ec-4d54-91cd-bb29086080ec" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_VlaakithCLVII" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="83d41f75-d341-407c-8c91-2559af3fcd96" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b534a714-5970-4be1-ba0d-e16692ba6705" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Bahamut" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ab7370a2-0532-46fb-be98-e5d6e3138c7c" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0eb759cd-618d-4dfb-b067-f0affae7f4b4" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Jergal" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="111fef09-0a5f-48ed-8702-0450841adbd8" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0ce0e80e-38d0-476b-8026-2d565c20bb82" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Pelor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7c3db699-66df-466d-84a6-1a70c130ce2a" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8235e8a8-71b6-49c1-ad13-bed342bc130a" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Umberlee" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d0690345-51e7-4ee0-838f-d3686ad56e82" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="618d4f48-1848-43d0-b74b-1d360300bf5c" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Sashelas" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="56e93c17-42af-4594-b5f9-91b8930847c3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="276e414e-5c92-4199-b5e0-e249af62f3a0" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Hoar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d3aa8cbc-0cac-4ce2-a4a6-018b2c27eb58" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="96200dfc-3ba0-4687-9ec1-9f9c339cd204" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Asmodeus" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9a9011da-b485-4cc7-ae7a-050bac73cf64" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="36df5549-2ce3-4a46-b122-a0a99dfb9469" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Ao" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a5d6e13c-0eb9-4b21-83a9-0c79512ee478" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b1e290f7-ec04-4db1-ab3b-7ea8018291aa" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Corellon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2e9abbef-d7aa-4dc7-8e23-ca16fb93c0aa" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="668f4306-f4af-4f7c-98f5-27b519d837dc" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Talos" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="99f7691a-6e42-4624-b0a9-f2b3bf6b7aaf" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="685c4c54-8f20-4a50-bf78-d90890445ca7" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Moradin" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c38b2c3b-37ef-48e5-836e-c449fa74a0c4" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="62118d65-30e5-475e-8c71-d51ec656b89d" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Dumathoin" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e351d8ce-bf87-424f-b939-1f29f2836129" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d2dfd9c7-f7aa-4df0-9ccb-08f053146f23" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Helm" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="52591dc3-6a21-4b64-8039-15c9a906c2c2" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b53eb057-f0d1-4fb9-85ba-f9a3b13d8ea0" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Vecna" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7cca30e4-eafb-49db-abe0-f377a12ba0bd" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b1990752-c092-4460-85d5-1b8e629e6cd0" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Tiamat" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="3de51838-1aca-4cc4-873c-84dab827b639" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fe744dba-0d88-4f27-a9ac-08b64fbac5d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Garl" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a5086ddb-53a3-4b68-8be0-63b2029c03cf" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="378e00eb-7374-4559-b70f-e526431d932c" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Gruumsh" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="6268358b-71e0-4a52-9e1c-e16397c089b6" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6f34e0a2-9e17-4194-8597-2af803c9b55c" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Kereska" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f5b6feef-9525-476b-8634-3106b017db15" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="71553a6a-7755-4ef6-b31a-c795a66093fe" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Kossuth" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="8b4137c4-bb79-4921-b419-dec0d74435bc" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="14e241cf-3936-44ef-a3e9-9b2fa676f948" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Sharess" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="18c0d26b-0377-4480-9712-d7ca88506652" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="88f34188-e231-46b5-b5de-0e371694a107" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Vhaeraun" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="d8dff587-ddb7-4acb-80a7-26ae15b7962f" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb0120b2-c328-49f7-b244-4df5a544cedd" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Mephistopheles" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="53c8b1fc-6556-4a85-853e-3f87afe09ab3" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9e94c475-2e56-435e-86b4-d0b2d3bd6098" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Orpheus" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="9c4751ef-a76e-44e2-91b7-7385eb6d9c6f" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9724f424-1bb3-49b4-98dd-5a8fb5c4cfb0" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_MorningLord" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="cc78fc2f-d8e0-45bd-b1d6-94ddf9cc4f2f" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4b500763-b3e2-4870-9255-afb03e2696ea" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Grazzt" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="aba72411-afca-4cf9-bdc2-893416b73dc5" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e945809c-17b4-4eb1-8e3f-8e502523da94" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Zerthimon" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f4bd2ce4-1cf7-406e-9c68-8903192509bb" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0962cfd8-fbca-4e47-9e8b-502707f86db9" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Beshaba" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f1ee1335-8715-456f-a396-6eac53b33407" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="deef16ac-42ec-4621-aa62-a1f2909804f4" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Misruled" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="df3fed23-f42f-4ba2-bed3-da473eaf9f41" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dde17336-fbe2-41db-af99-1c81dc8bebd0" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Fulgora" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="c6a6d1c6-792c-4874-9655-192d7c00351e" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a24dcf41-eb0c-41b6-833b-f686110920b4" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Wonderbringer" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="368f0079-c6a9-457f-b488-86dc2c5a2ec8" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="699cc211-68ac-4f69-bdee-132f0a597a05" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Arvandor" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="28409db6-6d02-4aa2-8328-0ef4cf97c887" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="13c06ae2-68a9-4e51-b721-39011bea31d8" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Fenmarel" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="e4cc81a5-3693-4a30-8114-8d05cedf6a90" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="74ed31ed-c2f5-4e8a-97fd-d269e9b38532" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Persephone" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="41ff4157-5683-407e-a39f-9590219cf435" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="73fc7f97-58f2-4cc6-8cc6-6ee4e99eeee8" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Hades" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ec63323c-4401-4bc5-b141-d39da13dfc17" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="baec265d-edd3-47d8-a723-b4f9cb5f0e20" />
+        <field name="Name" type="NameTableFieldDefinition" value="FC_OBJ_DYE_Nyx" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7180091c-71cf-48b2-ab20-5249ff004a58" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="59681b2a-d51e-4ba1-bf42-dd02ead45965" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="0" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

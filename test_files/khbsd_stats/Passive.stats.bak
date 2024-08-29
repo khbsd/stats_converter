@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="61589b0f-b140-4993-88ce-b4ced1fc44ed" />
+        <field name="Name" type="NameTableFieldDefinition" value="Solar_Spicule_Unlock" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h7d07ae61g5904gb88agbf54gb728ce8619ca" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h60ecb470g41b1gb794ga967geec85a61c1a8" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_GuidingBolt" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Projectile_Solar_Spicule)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

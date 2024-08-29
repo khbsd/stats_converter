@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="9fd4ac7a-fad7-424f-83df-0893eae93c38">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0865efd4-fd49-47b2-829c-6df39a7ab8f1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shapechange_Wolf" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerCombat" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SHAPECHANGE_WOLF,100,-1)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Autocast" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_DireWolf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h72ccb02cg92bbg3ffdgd03dgda4243fb5f10" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h5d2b4977g557fg443cg8121g2433eb1ca233" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Tadpole_AberrantShape_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="f94542d9-a79c-478a-92de-573cead9260e,,;,,;45eb309a-40c4-4093-bbf2-c22f6321553e,,;,,;bd339475-d2b5-46e8-8d0c-9f2ad6a91328,,;,,;,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="ImmediateCast" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="c9b186fa-c2e3-4619-abea-f93c01324fdd" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1c1b7ee9-54c0-4cc9-8290-0e09240c83c8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4fec60ee-7384-4424-a24c-ced3ba332546" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shapechange_Wolf_1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerCombat" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SHAPECHANGE_WOLF_1,100,-1)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Autocast" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_DireWolf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1ec43b42gfe13gc309ga3f4g6797d851d727" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h8433c975gcfc7gebccg42b6gde3c57d7c1c3" version="1" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="ImmediateCast" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Tadpole_AberrantShape_L1to3" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="f94542d9-a79c-478a-92de-573cead9260e,,;,,;45eb309a-40c4-4093-bbf2-c22f6321553e,,;,,;bd339475-d2b5-46e8-8d0c-9f2ad6a91328,,;,,;,,;,,;,," />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="c9b186fa-c2e3-4619-abea-f93c01324fdd" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1c1b7ee9-54c0-4cc9-8290-0e09240c83c8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9fc02bbb-961c-4b4b-8860-d8d4a0f6f7e2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shapechange_End" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(SHAPECHANGE_WOLF);RemoveStatus(SHAPECHANGE_WEREWOLF);RemoveStatus(SG_Polymorph);RemoveStatus(SG_Polymorph_BeastShape)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Autocast" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Skill_Druid_WildShape_Dismiss" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="habf564eeg3b6eg3680gf7d1g4f0ab1275804" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hebee6247g2158g7d3cg000bg9d18b17141b6" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Tadpole_AberrantShape_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="f94542d9-a79c-478a-92de-573cead9260e,,;,,;45eb309a-40c4-4093-bbf2-c22f6321553e,,;,,;bd339475-d2b5-46e8-8d0c-9f2ad6a91328,,;,,;,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="ImmediateCast;Wildshape;Temporary" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="c9b186fa-c2e3-4619-abea-f93c01324fdd" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1c1b7ee9-54c0-4cc9-8290-0e09240c83c8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d2ebf6ef-e30f-4324-89e9-7a9adcac4b53" />
+        <field name="Name" type="NameTableFieldDefinition" value="Shapechange_Werewolf" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SHAPECHANGE_WEREWOLF,100,-1)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Autocast" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Ranger_RangersCompanion_Wolf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h77cfbdf9ge7a1ga36ag9133g73b2c3cf09b3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf84a30a9g23abg2acagdae3gf04cbd12f50e" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Tadpole_AberrantShape_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="f94542d9-a79c-478a-92de-573cead9260e,,;,,;45eb309a-40c4-4093-bbf2-c22f6321553e,,;,,;bd339475-d2b5-46e8-8d0c-9f2ad6a91328,,;,,;,,;,,;,," />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="ImmediateCast" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="c9b186fa-c2e3-4619-abea-f93c01324fdd" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1c1b7ee9-54c0-4cc9-8290-0e09240c83c8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0ebc8d71-58b8-4c01-bfd4-abebbe752eeb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Remove_Werewolf" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="RemoveStatus(WEREWOLFSPAWN)" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="Self()" />
+        <field name="Autocast" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_AspectOfTheBeast_Wolf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hae6c099eg6854g7455ga7e6g325c6b292554" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h6bf2b596g1743g0d60g0211g05075f8edb1d" version="1" />
+        <field name="CastSound" type="StringTableFieldDefinition" value="Spell_Cast_Tadpole_AberrantShape_L1to3" />
+        <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="BonusActionPoint:1" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="f94542d9-a79c-478a-92de-573cead9260e,,;,,;45eb309a-40c4-4093-bbf2-c22f6321553e,,;,,;bd339475-d2b5-46e8-8d0c-9f2ad6a91328,,;,,;,,;,,;,," />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="c9b186fa-c2e3-4619-abea-f93c01324fdd" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="1c1b7ee9-54c0-4cc9-8290-0e09240c83c8" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="ImmediateCast" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

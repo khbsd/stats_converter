@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="c496009d-a970-44a3-b882-7ed3364dc271">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e757325-fde6-4d7a-b08d-7d2065500c55" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_DivineStrike_Radiant_override" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7eeabc1e-7469-4c32-beec-89f0055b6d78" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7eeabc1e-7469-4c32-beec-89f0055b6d78" />
+        <field name="Name" type="NameTableFieldDefinition" value="Interrupt_DivineStrike_Radiant" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="e9a71b36-bfed-431c-bf1a-52bbab849309" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hfc1a5dadgc76cg2a42ga331g096448b00615" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8,Radiant)" />
+        <field name="Properties" type="StringTableFieldDefinition" value="DealDamage(1d8,Radiant,Magical)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_DivineStrike_Radiant_Melee" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

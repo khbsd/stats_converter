@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a398f05b-c9e7-4a65-8168-f2035569c3c9" />
+        <field name="Name" type="NameTableFieldDefinition" value="VS_Background_Werewolf" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h2156bbc2g2aefg0dd3gd697gce1c7a3165da" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2edea753gb205g7774g1c58g6aaec986ffc8" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Wolf_InfectiousBite" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Shapechange_Wolf);UnlockSpell(Target_CreateWerewolf);UnlockSpell(Shout_Shapechange_Werewolf);Advantage(Skills,Perception);ProficiencyBonus(Skill,Intimidation);UnlockSpell(Shout_SpeakWithAnimals_BeastSpeech)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="06305a21-8559-42c3-bdf1-ece5a5ebcb5b" />
+        <field name="Name" type="NameTableFieldDefinition" value="PackTactics" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h003111f4g6d42g0684gc7f4g02ed48a04885" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h84a0e6c3g3714g3812g4cb7gfc6fc38b70fb" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3)" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Wolf_InfectiousBite" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(HasAllyWithinRange('SG_Incapacitated',3)):Advantage(AttackRoll)" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

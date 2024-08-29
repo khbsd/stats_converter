@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a8098c1a-f86e-11da-bd1a-00112444be1e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f7e30bfe-1e0f-42ca-a8e8-48d80f52a957" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Bear_11" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="6c8145b6-098b-4550-8b27-4bc4a748746e" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="27" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="125" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;ShortResting;CompanionsBond_Creature;AttackOfOpportunity;DarknessRules;SummonHelpDistract;ExceptionalTraining;BestialFury;ExtraAttack" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="24" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9116c107-020e-46e5-9339-12724903211b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Bear_7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="dda5d55c-8655-4132-a888-89ffd60eb88a" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining;SummonHelpDistract" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="21" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="22" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="80" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6c8145b6-098b-4550-8b27-4bc4a748746e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Bear_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9116c107-020e-46e5-9339-12724903211b" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="90" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="9" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining;SummonHelpDistract" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4279eb2a-0bbd-4f14-b87f-a1a3425d5fac" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Boar_7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9b66048d-f09e-46fe-94ef-86fc8958f8d1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;ShortResting;CompanionsBond_Creature;AttackOfOpportunity;DarknessRules;SummonHelpDistract;ExceptionalTraining" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="22" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="18" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="56" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="28e1ee11-d3ea-45e1-8166-e16ef3817a5e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Boar_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4279eb2a-0bbd-4f14-b87f-a1a3425d5fac" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="19" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="75" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining;SummonHelpDistract" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8490d2b1-841d-4db4-9eaf-28612f0091e7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Boar_11" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="28e1ee11-d3ea-45e1-8166-e16ef3817a5e" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="120" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="20" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;ShortResting;CompanionsBond_Creature;AttackOfOpportunity;DarknessRules;SummonHelpDistract;ExceptionalTraining;BestialFury;ExtraAttack" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="25" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="19630aab-4bf8-49f4-bef9-aecb00c8e860" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_GiantSpider_7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ee5d02d8-d4c3-4250-9f6e-bced6b9f8e1e" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;SpiderWalk;ShortResting;CompanionsBond_Creature;AttackOfOpportunity;ExceptionalTraining;Darkvision;DarknessRules;SummonHelpDistract" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="25" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="22" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="48" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f5406894-ca0a-419c-8d52-9a416987d0dd" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_GiantSpider_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="19630aab-4bf8-49f4-bef9-aecb00c8e860" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="60" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;SpiderWalk;DarknessRules;Darkvision;ShortResting;CompanionsBond_Creature;ExceptionalTraining;SummonHelpDistract" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="26" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="23" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e591ba89-b241-4ff2-8a52-13dbd3d083bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_GiantSpider_11" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f5406894-ca0a-419c-8d52-9a416987d0dd" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="75" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;SpiderWalk;ShortResting;CompanionsBond_Creature;AttackOfOpportunity;Darkvision;DarknessRules;SummonHelpDistract;EightLeggedWaltz_Spider;BestialFury;ExtraAttack" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="18" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="28" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="25" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bbc81177-f1e2-41ba-b7b0-0945eac55f89" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Raven_7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bbe1ed2b-da1e-4935-aece-c95920c3bfec" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;ShortResting;CompanionsBond_Creature;AttackOfOpportunity;DarknessRules;SummonHelpDistract" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="14" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Wisdom" enumeration_type_name="Ability" version="1" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="24" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="17" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="41" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21d25e0b-08ab-4336-b284-4d7c5e2f5a5d" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Raven_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bbc81177-f1e2-41ba-b7b0-0945eac55f89" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="48" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining;SummonHelpDistract" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="25" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="18" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="23e301da-4baa-4b44-bc91-294922022f56" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Raven_11" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="21d25e0b-08ab-4336-b284-4d7c5e2f5a5d" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="17" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="55" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;ShortResting;CompanionsBond_Creature;ExceptionalTraining;BestialFury;ExtraAttack;ThirdEye;SummonHelpDistract" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="BLINDED;BLINDED_DARKNESS" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="27" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="20" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="21abd7f8-904d-4593-888c-cd4984aaf2cb" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Raven_Flock" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cc044ed3-1d55-4a08-8e19-312273ac5cd5" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="BLINDED;BLINDED_DARKNESS" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;ShortResting;ThirdEye" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f862e70a-8a86-4a30-9b07-caa46007366e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Wolf_7" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="a9781b07-b2cc-4154-b09c-cd6e2ea5bf55" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;PackTactics;ShortResting;CompanionsBond_Creature;AttackOfOpportunity;DarknessRules;SummonHelpDistract;ExceptionalTraining" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="24" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="21" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="61" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b6e05e7-e5f7-489e-97ec-a170a5d02ce7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Wolf_8" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f862e70a-8a86-4a30-9b07-caa46007366e" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="80" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;AttackOfOpportunity;DarknessRules;PackTactics;ShortResting;CompanionsBond_Creature;ExceptionalTraining" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="25" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="22" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b6f0bf7e-18c2-4efe-ac44-e4308e05f8c7" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Wolf_11" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9b6e05e7-e5f7-489e-97ec-a170a5d02ce7" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="27" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="120" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="11" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;PackTactics;ShortResting;CompanionsBond_Creature;AttackOfOpportunity;DarknessRules;SummonHelpDistract;ExceptionalTraining;BestialFury;ExtraAttack" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="24" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="26fe368f-f25b-4598-aaf3-477238965508" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Bear" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="91e11772-12f7-4867-8fa7-db04ef693eae" />
+        <field name="ProficiencyBonus" type="IntegerTableFieldDefinition" value="0" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="40806669-8c6b-4068-8bc4-07e4981bb020" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="250" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;ShortResting;AttackOfOpportunity;DarknessRules;SummonHelpDistract" />
+        <field name="Proficiency Bonus Scaling" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SoundSize" type="EnumerationTableFieldDefinition" value="Large" enumeration_type_name="ObjectSize" version="1" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="18" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="30" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="dda5d55c-8655-4132-a888-89ffd60eb88a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Bear_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="26fe368f-f25b-4598-aaf3-477238965508" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="19" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="60" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ProficiencyBonus" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;ShortResting;CompanionsBond_Creature;AttackOfOpportunity;DarknessRules;SummonHelpDistract" />
+        <field name="Proficiency Bonus Scaling" type="GuidObjectTableFieldDefinition" value="265d62c4-9b82-4ed6-9a86-da675b4ef8fe" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="31bfdca8-36df-4ec7-a85c-2b81b3cd2a52" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Boar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="3d10cb1d-7ee4-49e4-a2db-b2b8bb4759f0" />
+        <field name="ProficiencyBonus" type="IntegerTableFieldDefinition" value="0" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="40806669-8c6b-4068-8bc4-07e4981bb020" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;ShortResting;AttackOfOpportunity;DarknessRules;SummonHelpDistract" />
+        <field name="Proficiency Bonus Scaling" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="15" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="16" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9b66048d-f09e-46fe-94ef-86fc8958f8d1" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Boar_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="31bfdca8-36df-4ec7-a85c-2b81b3cd2a52" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="19" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="42" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ProficiencyBonus" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;ShortResting;CompanionsBond_Creature;AttackOfOpportunity;DarknessRules;SummonHelpDistract" />
+        <field name="Proficiency Bonus Scaling" type="GuidObjectTableFieldDefinition" value="265d62c4-9b82-4ed6-9a86-da675b4ef8fe" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="16" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3d3343e8-b075-424b-9d3d-bba383bde8fe" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_GiantBadger" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5f371bae-b247-4ce2-a944-8ce1dd3782ff" />
+        <field name="ProficiencyBonus" type="IntegerTableFieldDefinition" value="0" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="40806669-8c6b-4068-8bc4-07e4981bb020" />
+        <field name="Proficiency Bonus Scaling" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="18" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="21" />
+        <field name="Passives" type="StringTableFieldDefinition" value="AttackOfOpportunity;DarknessRules;SummonHelpDistract" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ee5d02d8-d4c3-4250-9f6e-bced6b9f8e1e" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_GiantSpider_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="0372b2a7-1ac6-4704-977a-5319773d621b" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="22" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="36" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ProficiencyBonus" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;SpiderWalk;ShortResting;CompanionsBond_Creature;AttackOfOpportunity;Darkvision;DarknessRules;SummonHelpDistract" />
+        <field name="Proficiency Bonus Scaling" type="GuidObjectTableFieldDefinition" value="265d62c4-9b82-4ed6-9a86-da675b4ef8fe" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="40806669-8c6b-4068-8bc4-07e4981bb020" />
+        <field name="SoundSize" type="EnumerationTableFieldDefinition" value="Huge" enumeration_type_name="ObjectSize" version="1" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="19" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0372b2a7-1ac6-4704-977a-5319773d621b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_GiantSpider" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="eeba5bfb-4ed7-4e4c-b30c-8e2e1631d779" />
+        <field name="ProficiencyBonus" type="IntegerTableFieldDefinition" value="0" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="40806669-8c6b-4068-8bc4-07e4981bb020" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;SpiderWalk;ShortResting;AttackOfOpportunity;DarknessRules;Darkvision;SummonHelpDistract" />
+        <field name="Proficiency Bonus Scaling" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="19" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="15" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cc044ed3-1d55-4a08-8e19-312273ac5cd5" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Raven" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cdcad5a6-1ec6-4d29-8a98-74014fd94fbe" />
+        <field name="ProficiencyBonus" type="IntegerTableFieldDefinition" value="0" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="40806669-8c6b-4068-8bc4-07e4981bb020" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;ShortResting;AttackOfOpportunity;DarknessRules;SummonHelpDistract" />
+        <field name="Proficiency Bonus Scaling" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Wisdom" enumeration_type_name="Ability" version="1" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="18" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="17" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="21" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bbe1ed2b-da1e-4935-aece-c95920c3bfec" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Raven_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cc044ed3-1d55-4a08-8e19-312273ac5cd5" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="14" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="31" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ProficiencyBonus" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;ShortResting;CompanionsBond_Creature;AttackOfOpportunity;DarknessRules;SummonHelpDistract" />
+        <field name="Proficiency Bonus Scaling" type="GuidObjectTableFieldDefinition" value="265d62c4-9b82-4ed6-9a86-da675b4ef8fe" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="21" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cb4b94e0-7134-463d-ab08-ca4622a3500f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Wolf" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="837f1eea-cf81-4d8a-a22f-7dc78a5f0926" />
+        <field name="ProficiencyBonus" type="IntegerTableFieldDefinition" value="0" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="40806669-8c6b-4068-8bc4-07e4981bb020" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;PackTactics;ShortResting;AttackOfOpportunity;DarknessRules;SummonHelpDistract" />
+        <field name="Proficiency Bonus Scaling" type="GuidObjectTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="18" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="18" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="17" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a9781b07-b2cc-4154-b09c-cd6e2ea5bf55" />
+        <field name="Name" type="NameTableFieldDefinition" value="Companion_Wolf_5" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="cb4b94e0-7134-463d-ab08-ca4622a3500f" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="18" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="46" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="ProficiencyBonus" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;PackTactics;ShortResting;CompanionsBond_Creature;AttackOfOpportunity;DarknessRules;SummonHelpDistract" />
+        <field name="Proficiency Bonus Scaling" type="GuidObjectTableFieldDefinition" value="265d62c4-9b82-4ed6-9a86-da675b4ef8fe" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="21" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,9 @@
+treasure itemtypes "Common","Uncommon","Rare","Epic","Legendary","Divine","Unique"
+new treasuretable "TUT_Chest_Potions"
+CanMerge 1
+new subtable "1,1"
+object category "I_OBJ_werewolfbackground_potion",1,0,0,0,0,0,0,0
+new treasuretable "CHA_Jergal"
+CanMerge 1
+new subtable "1,1"
+object category "I_OBJ_werewolfbackground_potion",1,0,0,0,0,0,0,0

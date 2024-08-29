@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="9fd4ac7a-fad7-424f-83df-0893eae93c38">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="44240e10-4aff-42ec-b7ef-04881b446043" />
+        <field name="Name" type="NameTableFieldDefinition" value="StillnessOfMind_override" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="637dac0d-9119-4a69-9c5f-bb719babdfe8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e2558fa0-178f-4023-ae33-96dd770dfdca" />
+        <field name="Name" type="NameTableFieldDefinition" value="WholenessOfBody_override" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="f0787c90-b274-49a2-ba30-72ee16911a11" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

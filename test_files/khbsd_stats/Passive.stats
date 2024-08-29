@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="3e76b74c-a5ae-4268-944a-aa9c31e2185e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="93a45ba8-2b83-47e3-8c2f-db0211bb85fa" />
+        <field name="Name" type="NameTableFieldDefinition" value="Nath_LolthFavor" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hdbfce5c3g3c30ga527g4ca3g0c84cf6d5b17" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd7f39d7dgc27dg25b8g7711g1e3ac2a49d1f" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Spell_Conjuration_Web" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="StatusImmunity(WEB);StatusImmunity(DIFFICULT_TERRAIN_WEB)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9d242efe-57be-4927-966b-e6263b676a8f" />
+        <field name="Name" type="NameTableFieldDefinition" value="Nath_EilistraeeFavor" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h22c54412gd081gbdc3gc14cgffa723cc37c5" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7430242cg26a2gb34eg5226g25549b029c25" version="3" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Song_BardDance" />
+        <field name="Properties" type="EnumerationListTableFieldDefinition" value="Highlighted" enumeration_type_name="PassiveFlags" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(Skill, Performance)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3772bfbc-cbfe-48c2-b357-04b2427aff7c" />
+        <field name="Name" type="NameTableFieldDefinition" value="Nath_Spider_Talking" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

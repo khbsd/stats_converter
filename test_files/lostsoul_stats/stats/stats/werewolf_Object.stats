@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e078e210-b9ba-48e5-afe3-c5eb91ba8545">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e339199f-55a2-41fd-a710-ba3460868da4" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_werewolfbackground_potion" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c50e9af1-981e-4245-87ff-68dcb94c3698" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="MinLevel" type="IntegerTableFieldDefinition" value="1" />
+        <field name="MaxLevel" type="IntegerTableFieldDefinition" value="20" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="df4ec837-43ec-406c-99bb-1852d651bcb4" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

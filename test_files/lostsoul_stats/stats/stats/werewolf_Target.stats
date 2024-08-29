@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e988a674-28fe-49d2-a6ce-c5c1e0141f4c">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="05f69379-414c-4d59-b423-b8a661c3ea2d" />
+        <field name="Name" type="NameTableFieldDefinition" value="CreateWerewolf" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="41b3265b-6b46-47f0-97c8-7b41183b3924" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(WEREWOLFSPAWN,100,-1)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd82f7e4bg3b9cg3c6bg7aa8gff93c07b02ee" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h7e6b0810g1867gae97g8c49g37b1ca798152" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(WEREWOLFSPAWN,100,-1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eb795a01-9783-4adb-9b13-1d88bbd1015b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Multiattack_Werewolf" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1c37bcfe-3a2b-430e-a09b-94b9fb9edcc6" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="6d444cbe-28c7-4f69-9409-9b4871851d9b,,;ebd0529b-057e-491f-b124-acfed054728b,,;eeca2c0a-5f81-411e-aad8-b72362322900,,;2b6afcc6-c9c1-4dc1-9904-88bebecb892f,,;caa0d92c-5cd1-4248-9a4a-f2a8e404dac3,,;e6d40932-427f-4699-a0de-66f124d905b1,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,," />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="DealDamage(3d6+UnarmedMeleeAbilityModifier,Slashing);Cast2[DealDamage(3d6+UnarmedMeleeAbilityModifier,Slashing)]" />
+        <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(3d6+UnarmedMeleeAbilityModifier,Piercing);DealDamage(3d6+UnarmedMeleeAbilityModifier,Slashing)" />
+        <field name="AnimationIntentType" type="EnumerationTableFieldDefinition" value="Aggressive" enumeration_type_name="SpellAnimationIntentType" version="1" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="ae4f7dae-384e-47ad-8d34-f29cf5ae4420" />
+        <field name="TargetEffect" type="GuidObjectTableFieldDefinition" value="73a95fdc-77cd-4833-ae5a-d10fcefdf940" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h9686b07agaa93gdbddg9f03g105305eca3d6" version="1" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not Self() and not Dead() and (HasStatus('RAT_INFECTED') or HasHPPercentageLessThan(60))" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1debe794g619dgd53eg24acga9ff169a63c8" version="1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsMelee;IsHarmful;IsEnemySpell;Wildshape" enumeration_type_name="SpellFlagList" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

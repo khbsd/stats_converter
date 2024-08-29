@@ -1,0 +1,9 @@
+new entry "OBJ_werewolfbackground_potion"
+type "Object"
+using "_Potion"
+data "RootTemplate" "df4ec837-43ec-406c-99bb-1852d651bcb4"
+data "Level" "1"
+data "Rarity" "Legendary"
+data "MinLevel" "1"
+data "MaxLevel" "20"
+

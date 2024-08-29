@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a1fa1d2f-c335-4902-898c-4228c3c07d52">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c8a58aa6-155c-4bc3-b90e-02ba8aaecd78" />
+        <field name="Name" type="NameTableFieldDefinition" value="WPN_Longsword" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="37cee654-fa7a-475b-8a6d-97254951444c" />
+        <field name="Damage Type" type="EnumerationTableFieldDefinition" value="Psychic" enumeration_type_name="Damage Type" version="1" />
+        <field name="Damage" type="DiceTableFieldDefinition" value="1d8" />
+        <field name="Weapon Group" type="EnumerationTableFieldDefinition" value="MartialMeleeWeapon" enumeration_type_name="Weapon Group" version="1" />
+        <field name="VersatileDamage" type="DiceTableFieldDefinition" value="1d10" />
+        <field name="Weapon Properties" type="EnumerationListTableFieldDefinition" value="Versatile;Melee;Dippable" enumeration_type_name="WeaponFlags" version="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="Longswords;MartialWeapons" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="1865323f-b428-4791-a0a9-578841e57463" />
+        <field name="BoostsOnEquipMainHand" type="StringTableFieldDefinition" value="UnlockSpell(Target_PommelStrike);UnlockSpell(Target_Slash_New);UnlockSpell(Rush_SpringAttack);" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="1.35" />
+        <field name="ValueLevel" type="IntegerTableFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

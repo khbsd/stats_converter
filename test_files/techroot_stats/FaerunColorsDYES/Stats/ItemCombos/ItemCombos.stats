@@ -1,0 +1,859 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="21465eb6-ebaf-4455-9f29-369759e000a9">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5f7a48c7-3834-4ee1-90fc-f84de5d5ea0e" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Shar" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Shar" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="0c3f4607-61e2-4a09-d8c3-030d33b8e323" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4a24d177-a0bf-4467-8159-26f90de16f2c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Bhaal" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Bhaal" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="097c4f93-b7b8-95ff-4c9f-27cfaa305bdc" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="5ad26297-ba4e-40ef-aaed-b0804278ab50" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Nyx" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Nyx" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="7767870b-add8-9e8e-68c0-615390bf9c51" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7035bfdf-5703-4bdd-b724-2990362f97e6" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Selune" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Selune" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="f042aa1d-9118-620e-cf74-d2669057ed45" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f0f76e10-458f-4894-b653-8639bb8b3617" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Lathander" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Lathander" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="08a6e235-fc50-3c1c-7932-24ff46efee5a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2cd8bd2a-3a11-4999-991c-78f68edbef25" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Tyr" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Tyr" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="75a3a492-067d-2fdb-7881-5c3f216f978a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cffaac8f-80f1-4433-8cdf-10abd5d414a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Velsharoon" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Velsharoon" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="25dd5a39-12be-866b-be91-b73a8466ba60" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed4abb13-b77a-4ca3-b421-758a724b6a04" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Mask" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Mask" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="fe25728b-961b-1471-ba58-9f174bb73006" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="17a0d8eb-a48c-4c39-8a4f-0fe0618b0b41" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Cyric" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Cyric" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="e2eb471b-7507-9fe9-4291-eb3c2cf05dec" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c3b12590-e6e5-491c-a522-1fbaccd3ed66" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Eilistrae" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Eilistrae" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="632c35a3-739c-858a-3277-1b376aa76da4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ba9df0ec-47d3-4011-a438-c5eb1b8026c8" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Silvanus" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Silvanus" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="cc40b5d6-29bb-8115-5694-4a4a4200554d" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="13c9fc51-49f5-4178-aadf-2351a87d1728" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Illmater" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Illmater" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="cd889276-09b9-ae07-b136-4f79c3606c16" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2c97de8e-db66-4e46-8941-1232c6c64b72" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Kelemvor" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Kelemvor" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="e995736e-75da-cc5a-bd96-c10dadd96153" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="70a114e1-5694-448b-a44d-54e854ced5f0" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Tymora" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Tymora" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="b06e5db4-56d0-d4cc-3267-3b3eeff47a42" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9c7d1998-612d-42e8-9881-67c760441b4b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Tempus" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Tempus" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="4e3dbe08-af9d-2ea4-94c2-a70079e47b05" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fdab54f7-c7ec-49a5-b350-66fce028753a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Mystra" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Mystra" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="2330158d-7fa0-1af8-901d-b41d2515fc77" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fed86f15-c1d1-4d3d-ac43-a569ec862c43" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Sune" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Sune" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="714e437b-89d2-26a0-5d0d-7f8abae0b681" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="891b8311-d876-48bc-b38c-754610904a65" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Myrkull" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Myrkull" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="f8ce7c98-24f7-819c-d566-8d619deca282" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e4dcc198-a4dc-4410-bdd6-c74af1a80b22" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Bane" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Bane" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="1400eeb3-ffc8-345d-7135-9212361c3a2e" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cd192c6b-d5c2-4fb6-bdd6-2273115d33a8" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Lolth" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Lolth" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="b05a31f1-0135-1817-5b0d-75828e433d69" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7759af25-6fca-433e-bb1f-207d7f5143cf" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Oghma" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Oghma" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="fc78e2da-39b0-6730-fbdc-0f1740c413c8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e6438926-08e7-4399-a393-b5f01e624f87" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Mielikki" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Mielikki" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="b8bc1ff7-fe25-d79a-274e-9ab67f731ded" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6c9ee178-234f-496b-a1e7-41382651077b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Amaunator" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Amaunator" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="4e251468-4bb0-5bb8-c9c3-a827e4c1ffa9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="da75f227-80e9-4406-9087-28445c28f5d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Talona" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Talona" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="af6b7732-e042-b6e1-d291-0105a639a023" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ddb6f515-5ed8-46d9-ac53-a34af7894279" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Loviatar" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Loviatar" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="53e0f43f-5c4c-b0d6-6ba2-2438f3ae7cea" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1395e8b8-7683-4942-8139-ea16c460f37a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Yondalla" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Yondalla" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="655f0a82-1ce8-f81c-c180-c655e4230f37" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e64b2bfb-7ded-47ae-92da-44246dec16a5" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_VlaakithCLVII" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_VlaakithCLVII" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="3414ae31-0e84-5a38-5a9f-93381c76671b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4e7c5aae-b140-4f41-8a20-7ca3749d1f6a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Bahamut" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Bahamut" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="1df15f57-4e57-3719-8ce2-3199793b72c6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6ecb22aa-816a-4c75-9dd2-015a109c69bd" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Jergal" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Jergal" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="4dfec222-0421-375b-a86a-b8ccea507bbd" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bc590246-3ae2-4c47-a888-cf6fcfcf6b9d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Pelor" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Pelor" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="346586ba-90e9-a744-09f1-79180978182b" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ad514dbf-b43d-42e9-96f8-199f1c9ada7f" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Umberlee" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Umberlee" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="7130446e-456e-4e32-11f1-92e3ea90b154" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="86febdf9-d5b6-4591-9bd6-88b99b129cee" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Sashelas" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Sashelas" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="ec0061f3-b935-c88d-6b70-a04f9f3dc460" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bfe7e23a-b935-41c8-98cd-d5d6e12c387a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Hoar" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Hoar" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="d4d165a9-6e1b-46af-981b-5072784028e9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="50f419df-7152-4a5c-8f66-53f193d7f403" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Asmodeus" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Asmodeus" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="5cc33e05-e018-7279-55f7-8b303c5e42f3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="988914d5-cd21-4160-b2a4-10844c8545fd" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Ao" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Ao" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="478d7a9d-7b22-28ed-995d-b1740c5cb355" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="7679087f-135a-4a24-b9d0-c8fe49b074f8" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Corellon" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Corellon" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="91e3ca28-3307-62f8-d657-0bd39088aed8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="886e6fe3-3709-411c-9e69-9b3a852fb0b6" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Talos" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Talos" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="b75b2205-0583-05f9-2d45-0e1dfeca1d70" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8cadd17d-e4bc-453f-8340-6e70383d59b3" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Moradin" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Moradin" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="4fc67a45-a60f-578d-9e65-e23b35aa7870" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="871a7f3b-8f38-4c99-9e22-24c96708bd0a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Dumathoin" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Dumathoin" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="70490a76-f146-b10b-14e4-14e7958beb48" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="fcd98bc5-ad63-405b-9b60-2c34863cfb10" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Helm" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Helm" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="798a238a-571f-a075-d260-7d82fe4ba254" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1920b0e1-ce3a-406e-8841-1372bf981dd7" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Vecna" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Vecna" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="3e8f2c22-7cdd-4708-a4fb-e87802ceade8" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f7e9be0f-903a-4aed-b2c9-cac43a96cefb" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Tiamat" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Tiamat" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="87225bc8-558e-e4f4-8fc8-633142087716" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d2b4f82d-4380-4b4f-a5da-821862935208" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Garl" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Garl" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="449b1886-38c1-0b83-2c73-3d3f66e9816c" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d6d7d3d1-0aaf-4fc2-a7d0-377da09497cc" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Gruumsh" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Gruumsh" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="aa6af6c9-29ca-229f-5fbe-4535cad79bba" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="36aef15f-0191-4b5b-8df4-0fa74da69a5a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Kereska" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Kereska" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="180d96fe-7e4d-d96c-e3d8-95c76dfea843" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="94b035e2-616a-4275-98ad-401d25b84882" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Kossuth" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Kossuth" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="2e06000b-e3b7-ae6a-ebd2-fbee8ec6131a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d3f81d15-4627-4668-a8e5-47384a1c93af" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Sharess" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Sharess" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="a5ce9731-f505-79a7-1b5a-ce1352316384" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ee103719-a693-4d78-b9db-3d67591b9929" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Vhaeraun" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Vhaeraun" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="ca3bedff-9e07-f863-36b4-69a507565b66" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a3dd428f-cda7-48cd-a33a-6964d1dba8dd" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Mephistopheles" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Mephistopheles" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="f650745e-3f5c-b2b3-fbb7-8df7ad3084f9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6f807f13-fee2-4e37-af99-74f5ceaf213b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Orpheus" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Orpheus" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="6e85a56a-4fcb-5aa9-da84-47be249b18f7" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1fa2144a-935a-40c4-b143-f5039621257e" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_MorningLord" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_MorningLord" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="216e7332-5ad1-a470-218e-f74657849141" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1f68787d-8c34-4a3c-96d1-cdbe3caa179e" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Grazzt" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Grazzt" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="d91dd6ca-636b-f038-edf6-bb69d83c6838" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="c645835b-bfb6-4169-b200-14808021cc2a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Zerthimon" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Zerthimon" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="82661f11-678b-5a8c-692d-d496eee76297" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b5a6d755-e634-4696-969e-0df1832bc7aa" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Beshaba" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Beshaba" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="e77660f9-c8e3-59aa-fc55-66f39d4ed5f4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4af04bf5-1c1a-4e1e-b8e6-5987bdaffd1f" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Misruled" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Misruled" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="a377f404-1558-8aea-8eed-ea77656d5b72" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="cafeeb12-5a14-4653-86dc-8e55bd4028ea" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Fulgora" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Fulgora" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="074b1779-b7d0-c041-c6e6-46478658f4e1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="aaa5eb28-a107-448e-863d-6a22cfb248eb" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Wonderbringer" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Wonderbringer" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="e5473740-0170-23ba-b09c-e12c2f236210" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d8d44491-bdfb-4844-b109-4a9cba604ab9" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Arvandor" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Arvandor" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="1ed89db3-0c1c-4151-068e-1503e9f67e6a" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1643a80e-252c-44ab-ba81-d14ff19209ee" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Fenmarel" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Fenmarel" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="bd28970a-6010-1e0b-ec74-c034bf8b9f77" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d2ac2bdc-6109-4087-bc36-17d656b5847d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Persephone" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Persephone" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="b794cb5b-027f-6fec-7b4d-6181edb3fd3f" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e3473666-f9c6-4ff6-ae01-fbcd4aa1f186" />
+        <field name="Name" type="NameTableFieldDefinition" value="ITEM_DYE_FC_Hades" />
+        <field name="Type 1" type="EnumerationTableFieldDefinition" value="Object" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 1" type="StringTableFieldDefinition" value="FC_OBJ_DYE_Hades" />
+        <field name="Transform 1" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="Type 2" type="EnumerationTableFieldDefinition" value="Category" enumeration_type_name="IngredientType" version="1" />
+        <field name="Object 2" type="StringTableFieldDefinition" value="DyableArmor" />
+        <field name="Transform 2" type="EnumerationTableFieldDefinition" value="Dye" enumeration_type_name="IngredientTransformType" version="1" />
+        <field name="ResultAmount 1" type="IntegerTableFieldDefinition" value="1" />
+        <field name="DyeColorPresetResource" type="FixedStringTableFieldDefinition" value="8ea77c8e-2f59-fc21-6411-efea503d31dd" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

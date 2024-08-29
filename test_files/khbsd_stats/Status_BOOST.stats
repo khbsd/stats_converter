@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1079e77e-6baa-4c3d-8bb7-0efa4253d650" />
+        <field name="Name" type="NameTableFieldDefinition" value="AURA_OF_HATE_BUFF_TEST" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbce49ff9ge52cg2c74gb64dg4c8f5e09c6a3" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hbe361f03g21bdg6697g378bga201b0ff56a6" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="Distance(3);DealDamage(max(1,Cause.CharismaModifier), MainMeleeWeaponDamageType)&#x9;" />
+        <field name="StackId" type="StringTableFieldDefinition" value="AURA_OF_HATE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="IF(IsMeleeAttack()):CharacterWeaponDamage(max(1, Cause.CharismaModifier))" />
+        <field name="StackPriority" type="IntegerTableFieldDefinition" value="5" />
+        <field name="Icon" type="StringTableFieldDefinition" value="Action_Paladin_AuraOfHate" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="StatusGroups" type="EnumerationListTableFieldDefinition" value="SG_RemoveOnRespec" enumeration_type_name="StatusGroupFlags" version="1" />
+        <field name="ApplyEffect" type="GuidObjectTableFieldDefinition" value="d21494e5-5c30-4a69-85ef-75a785e71105" />
+        <field name="EndEffect" type="GuidObjectTableFieldDefinition" value="a5c11e94-efa3-4998-a76b-fc12502ea565" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

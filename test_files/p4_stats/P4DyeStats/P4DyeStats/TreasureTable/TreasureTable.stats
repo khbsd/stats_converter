@@ -1,0 +1,865 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e4012e18-6a6b-4f40-aefa-c83b078c136c">
+  <stat_objects>
+    <stat_object color="#FF800080" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="36e61dc0-a8d6-406b-acdb-b35f83252bf9" />
+        <field name="Name" type="NameTableFieldDefinition" value="TUT_Chest_Potions" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_P4_Dye_Class" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="36e61dc0-a8d6-406b-acdb-b35f83252bf9" />
+        <field name="UUID" type="IdTableFieldDefinition" value="51e0826a-d427-40e0-abcb-78c35f954fa7" />
+        <field name="Name" type="NameTableFieldDefinition" value="TUT_Chest_Potions_substat" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_P4_Dye_Outfit" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="36e61dc0-a8d6-406b-acdb-b35f83252bf9" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1c0f2912-bf37-46bf-8df4-173b1688f9d3" />
+        <field name="Name" type="NameTableFieldDefinition" value="36e61dc0-a8d6-406b-acdb-b35f83252bf9_substat_0" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_P4_Dye_NPC" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FFB8860B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eb0fadc8-16a0-4bee-a824-cf3ee7a3cfb4" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_Entrance_Trade" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_P4_Dye_Class" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="eb0fadc8-16a0-4bee-a824-cf3ee7a3cfb4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="73ac72e4-15d6-4b90-b9da-ea752d6ec96d" />
+        <field name="Name" type="NameTableFieldDefinition" value="DEN_Entrance_Trade_substat" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_P4_Dye_Outfit" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="eb0fadc8-16a0-4bee-a824-cf3ee7a3cfb4" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cdf9a587-14ae-4c70-8c6e-550695ec9541" />
+        <field name="Name" type="NameTableFieldDefinition" value="eb0fadc8-16a0-4bee-a824-cf3ee7a3cfb4_substat_0" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_P4_Dye_NPC" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF008B8B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1bca69c4-42cf-402b-87f7-dfe7a0639eac" />
+        <field name="Name" type="NameTableFieldDefinition" value="UND_MycoVillage_AlchemistDwarf_Trade" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_P4_Dye_Class" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1bca69c4-42cf-402b-87f7-dfe7a0639eac" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4a789fd3-4d48-4a56-9236-3de6b6618516" />
+        <field name="Name" type="NameTableFieldDefinition" value="UND_MycoVillage_AlchemistDwarf_Trade_substat" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_P4_Dye_Outfit" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1bca69c4-42cf-402b-87f7-dfe7a0639eac" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e31ddb77-8786-4074-8e54-aefe4a4979f4" />
+        <field name="Name" type="NameTableFieldDefinition" value="1bca69c4-42cf-402b-87f7-dfe7a0639eac_substat_0" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_P4_Dye_NPC" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF778899" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9134f588-2d96-4690-b285-5ef7b7b78d43" />
+        <field name="Name" type="NameTableFieldDefinition" value="CRE_GithQuartermistress_Trade" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_P4_Dye_Class" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9134f588-2d96-4690-b285-5ef7b7b78d43" />
+        <field name="UUID" type="IdTableFieldDefinition" value="62fa5192-f21e-4d79-b772-c34bef2df2a7" />
+        <field name="Name" type="NameTableFieldDefinition" value="CRE_GithQuartermistress_Trade_substat" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_P4_Dye_Outfit" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9134f588-2d96-4690-b285-5ef7b7b78d43" />
+        <field name="UUID" type="IdTableFieldDefinition" value="39da2131-2078-4795-90d4-8db1abcd77c0" />
+        <field name="Name" type="NameTableFieldDefinition" value="9134f588-2d96-4690-b285-5ef7b7b78d43_substat_0" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_P4_Dye_NPC" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF4B0082" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="60b57908-194e-463f-9ee8-3462962d4c3e" />
+        <field name="Name" type="NameTableFieldDefinition" value="MOO_BugBearvendor_Trade" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_P4_Dye_Class" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="60b57908-194e-463f-9ee8-3462962d4c3e" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d4d69aac-0d5f-40b1-a28d-77cc49269140" />
+        <field name="Name" type="NameTableFieldDefinition" value="MOO_BugBearvendor_Trade_substat" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_P4_Dye_Outfit" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="60b57908-194e-463f-9ee8-3462962d4c3e" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5d96e8fe-17ec-48aa-8a90-0e1540c77c67" />
+        <field name="Name" type="NameTableFieldDefinition" value="60b57908-194e-463f-9ee8-3462962d4c3e_substat_0" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_P4_Dye_NPC" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF6B8E23" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="02a1148f-2326-4532-8868-fb3575c2a82a" />
+        <field name="Name" type="NameTableFieldDefinition" value="LOW_SorcerousSundries_Trade_Magic" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_P4_Dye_Class" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="02a1148f-2326-4532-8868-fb3575c2a82a" />
+        <field name="UUID" type="IdTableFieldDefinition" value="705adc07-0afc-4386-8c3b-f8b1e1d86568" />
+        <field name="Name" type="NameTableFieldDefinition" value="LOW_SorcerousSundries_Trade_Magic_substat" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_P4_Dye_Outfit" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="02a1148f-2326-4532-8868-fb3575c2a82a" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4f55efb3-b88f-4ba5-98cd-440cd088ea36" />
+        <field name="Name" type="NameTableFieldDefinition" value="02a1148f-2326-4532-8868-fb3575c2a82a_substat_0" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_P4_Dye_NPC" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF00008B" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="Name" type="NameTableFieldDefinition" value="P4_Dye_NPC_TT" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_BOOK_GEN_P4_Dye_Note" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="54ace708-4fd1-4886-82ba-79a8108ae11d" />
+        <field name="Name" type="NameTableFieldDefinition" value="P4_Dye_NPC_TT_substat" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Alfira" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a44a550e-ad36-424b-b502-9c31df414ffb" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_0" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Astarion" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e3fc302c-cdc1-4cd7-a6a9-7922779f674d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Astarion_EA" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="dc2b0289-908f-474b-811c-9e989a5b1c9e" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_19" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Astarion_EA_OG" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="bffde008-e6cb-4fc1-8ede-8e5b89b348d4" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_2" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Volo_EA" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="917552e7-0805-40fa-8c73-0c6a8f7d927f" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_3" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Volo_EA_OG" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8abea666-482d-424c-93ed-b36b11e65005" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Dye_P4_Volo" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Volo" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="95725b4c-8044-4339-b431-c69bc608d16e" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_4" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Druid_Kagha" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="083e3455-71da-41e7-bb31-4a9a4703dd26" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_5" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Gale_EA" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b4cd3ba8-5272-4882-8b96-494a16167e7c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_6" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Gale" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="713964c9-45df-4a14-958d-c9f8494bf59b" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_7" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Halsin" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="59ab3546-b186-49f2-bd32-cd216abd0016" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Jaheira" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2247bbb8-b170-42ce-aaca-1395603357f7" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_9" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Karlach" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4f91159c-60e6-49c9-994e-eb7b6645df81" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Laezel" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="8b409eb0-4582-4e7f-abe5-f9d72c2e5f6d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_11" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Minsc" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fe8008c2-a40c-47df-828b-720773094eba" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_12" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Minthara" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="fd78fb9d-c5ac-413e-a3bc-93a3dbdd1d02" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_13" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Oathbreaker_Knight" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1e18d157-d5a2-41e5-8629-a4e248f9170d" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_14" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Rolan" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="683f85ed-fa64-4191-bbac-c9b83c9cd31a" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_15" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Selunite_Isobel" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e815c80e-4b28-4d91-af21-d424b71792ef" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_16" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Shadowheart" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="16b34997-f35d-48c0-b801-c4138177d2cd" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_17" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Shelter_of_Athkalta" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="44598e0e-1a09-4c63-80b5-7601b3be34ed" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_18" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_True_Soul_Nere" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b522d58b-2b6f-45e3-a61a-b90f51c7bad5" />
+        <field name="Name" type="NameTableFieldDefinition" value="ceb95c5f-9965-4136-80b6-bd3e10d84c95_substat_20" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Arabella" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF205B1D" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082" />
+        <field name="Name" type="NameTableFieldDefinition" value="P4_Dye_Class_TT" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_BOOK_GEN_P4_Dye_Note" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6805496a-737b-40ec-a7d6-a81f1640f326" />
+        <field name="Name" type="NameTableFieldDefinition" value="P4_Dye_Class_TT_substat" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Barbarian_Starter" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c7e21b14-e01c-4405-8bf1-01fd36874537" />
+        <field name="Name" type="NameTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082_substat_0" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Bard_Starter" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ec605901-01de-41c0-ba82-32fc5ec8179e" />
+        <field name="Name" type="NameTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082_substat_1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Cleric_Starter" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f6047a03-880c-4f1f-9271-02e798b21ca8" />
+        <field name="Name" type="NameTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082_substat_2" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Druid_Starter" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082" />
+        <field name="UUID" type="IdTableFieldDefinition" value="28b9e784-d70a-4fd2-869d-4a986e993107" />
+        <field name="Name" type="NameTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082_substat_3" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Fighter_Starter" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082" />
+        <field name="UUID" type="IdTableFieldDefinition" value="49714f40-0ba6-4aa0-8a1a-951bbbe91d59" />
+        <field name="Name" type="NameTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082_substat_4" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Monk_Starter" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5777ee77-b69a-468b-a581-9ebe15cfe4ab" />
+        <field name="Name" type="NameTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082_substat_5" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Oath_of_Ancients" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b77eaba6-234c-4183-ae11-e2ae6a6e34d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082_substat_6" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Oath_of_Devotion" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082" />
+        <field name="UUID" type="IdTableFieldDefinition" value="ed6a6d90-84c2-4dde-9cbd-340d9105d3a0" />
+        <field name="Name" type="NameTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082_substat_7" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Oath_of_Vengeance" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c26478a8-0b76-41d0-b82b-75a346d52705" />
+        <field name="Name" type="NameTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082_substat_8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Ranger_Starter" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082" />
+        <field name="UUID" type="IdTableFieldDefinition" value="961f37f0-24ed-45e6-92ed-1204f841ee9d" />
+        <field name="Name" type="NameTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082_substat_9" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Rogue_Starter" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082" />
+        <field name="UUID" type="IdTableFieldDefinition" value="797ab4ae-3384-4277-85d0-ce3065ba2e1e" />
+        <field name="Name" type="NameTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082_substat_10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Sorcerer_Dragon" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4ff02741-0afb-4e01-828d-2ed4e0def41e" />
+        <field name="Name" type="NameTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082_substat_11" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Sorcerer_Storm" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082" />
+        <field name="UUID" type="IdTableFieldDefinition" value="1c67873b-6900-48cc-9bb2-9a8af243807e" />
+        <field name="Name" type="NameTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082_substat_12" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Sorcerer_Wild_Magic" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082" />
+        <field name="UUID" type="IdTableFieldDefinition" value="aeb4dd45-53a8-4739-bc1f-7c39e6fc882a" />
+        <field name="Name" type="NameTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082_substat_13" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Warlock_Starter" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082" />
+        <field name="UUID" type="IdTableFieldDefinition" value="da032b9f-45ad-4bee-9fbd-e6752ef786a6" />
+        <field name="Name" type="NameTableFieldDefinition" value="144ca5e2-1be9-4b5b-9e52-b4d440250082_substat_14" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Wizard_Starter" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object color="#FF651010" is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="Name" type="NameTableFieldDefinition" value="P4_Dye_Outfit_TT" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_BOOK_GEN_P4_Dye_Note" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+        <field name="CanMerge" type="EnumerationTableFieldDefinition" value="Yes" enumeration_type_name="YesNo" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b903b4fd-f74d-487d-a511-81bab4849917" />
+        <field name="Name" type="NameTableFieldDefinition" value="P4_Dye_Outfit_TT_substat" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Dark_Amethyst_Alt" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="be24dd51-ad1f-470c-b843-4f712c3a341a" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_0" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Bard_Red" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="cdccb3ea-ac95-472e-9fe6-c06fbe90b670" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_1" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Boots_of_Brilliance" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="a6777724-4580-4211-ba31-099e7bcc93de" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_2" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Chain_Shirt_Two" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="9d063195-d73a-481b-8541-98ae864343b6" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_3" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Cult_Absolute_Robe" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b259ddb9-2c5b-4c30-b42a-083e4e4d50ce" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_4" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Dark_Justiciar_Black" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="212a4d97-ad19-4214-b3d0-93797c92581e" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_5" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Deathstalker_Mantle" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="6bb88450-1b71-49eb-926e-074bc453f198" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_6" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Flawed_Helldusk" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="30964435-44c0-49ba-870a-17fb6528f4bd" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_7" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Harper_Leather_A" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e2ae6fef-857d-4b79-a4c2-89cc0543f856" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_8" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Harper_Leather_B" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="be35c975-b80f-46c1-a7e8-470c78db4ba0" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_9" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Harper_Robe_A" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="c3fb7a00-6c99-4de9-a282-9b3be5856a59" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_10" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Harper_Robe_B" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="45e8bdd3-d609-4dd3-bbec-6289f9c1cc41" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_11" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Harper_StuddedLeather_A" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d19d5e11-90ef-4547-9caa-7d7ee23575a5" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_12" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Helldusk" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="b31e6d26-aa44-49b3-aa40-88304f1f803b" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_13" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Monk_A_Red" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="4c0d93b5-225a-41af-83b6-92dcced8466b" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_14" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Moonbasking" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="49a8f86b-d529-4035-a5ce-2b0fb4af0999" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_15" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Psionic_Ward_Armour" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="5112ef15-3354-46f4-919a-a77c8d486c3d" />
+        <field name="Name" type="NameTableFieldDefinition" value="OBJ_Dye_P4_Robe_E_SpiderQueen" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Robe_E_SpiderQueen" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="f82d5012-f066-45d2-afec-c6ef68c3e696" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_16" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Shadeclinger" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e083c1d3-1893-494f-813c-a154ccddfebb" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_17" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Shar_Robe_DarkBlue" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="aa68c918-9927-4573-a2c9-edb8a6e031da" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_18" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Ilmater_Priesthood" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="39e7f43f-b0c4-407c-ac1a-9375f1b01164" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_19" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Solemnity_Purple" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="aee3ae0e-5e58-43a6-b1d9-62b7b0515702" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_20" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Underwear_Dragonborn_A_Green" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="d022d56f-ff36-47df-ae25-83231cf19566" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_21" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Wizard_Red" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="e587601a-af1b-4a20-8c23-b61105ee347a" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_22" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Adamantine_Scalemail" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="true">
+      <fields>
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d" />
+        <field name="UUID" type="IdTableFieldDefinition" value="de96bcaf-5963-40bd-b937-5d1ee159a856" />
+        <field name="Name" type="NameTableFieldDefinition" value="b8b1a7e9-d853-46ef-a10d-93b139ed496d_substat_23" />
+        <field name="DropCount" type="StringTableFieldDefinition" value="1,1" />
+        <field name="ObjectCategory" type="StringTableFieldDefinition" value="I_OBJ_Dye_P4_Faded_Drow" />
+        <field name="Frequency" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

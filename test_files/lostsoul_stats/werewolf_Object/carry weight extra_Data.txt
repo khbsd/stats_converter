@@ -1,0 +1,10 @@
+key "CarryWeightBase","10000"
+
+key "CarryWeightPerStr","30000"
+
+key "CarryLimitMultiplier","100"
+
+key "EncumberedMultiplier","60"
+
+key "HeavilyEncumberedMultiplier","80"
+

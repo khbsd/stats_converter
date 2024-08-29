@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="43178832-7920-4a69-8b7e-bcebc518c388">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0600449b-13f9-445d-921b-2438aa19c747" />
+        <field name="Name" type="NameTableFieldDefinition" value="CarryWeightBase" />
+        <field name="Value" type="FloatTableFieldDefinition" value="10000" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Warning - This one is in KGs" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="53dcb40c-0e1a-49e1-9c7d-f0a7b290fb19" />
+        <field name="Name" type="NameTableFieldDefinition" value="CarryWeightPerStr" />
+        <field name="Value" type="FloatTableFieldDefinition" value="30000" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="70011242-2fe6-431d-b50f-ec859ac735a4" />
+        <field name="Name" type="NameTableFieldDefinition" value="CarryLimitMultiplier" />
+        <field name="Value" type="FloatTableFieldDefinition" value="100" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Multiplied by the character STR to work out the limit of what a character can carry" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bba2d637-225a-4675-b53a-5fc6d6063694" />
+        <field name="Name" type="NameTableFieldDefinition" value="EncumberedMultiplier" />
+        <field name="Value" type="FloatTableFieldDefinition" value="60" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Multiplied by the character STR to get the encumbered carry weight" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ff6981ed-48fe-42e0-836e-849d5f021696" />
+        <field name="Name" type="NameTableFieldDefinition" value="HeavilyEncumberedMultiplier" />
+        <field name="Value" type="FloatTableFieldDefinition" value="80" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Multiplied by the character STR to get the heavily encumbered carry weight" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="ee4c30a6-9728-40e1-9722-b8a1ec68599e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a918322e-18a7-493b-a490-36e5aca85f7c" />
+        <field name="Name" type="NameTableFieldDefinition" value="SHAPECHANGE_WOLF" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b5a5b652-26b8-4164-b703-c665372366f0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1b543a9eg462eg22f3gd2f6g64bd7b506627" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h978eb923g4defgcc52gb7b1g572b0645859f" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="BlockSpellCast();UnlockSpell(Shout_Shapechange_End);Resistance(Bludgeoning,Resistant);Resistance(Slashing,Resistant);Resistance(Piercing,Resistant);UnlockSpell(Shout_SpeakWithAnimals_BeastSpeech)" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics;BeastSpeech;AttackOfOpportunity" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="71e2c062-fdf8-40c7-88d7-05ef57cdff41" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="f58b6b6e-0403-4078-9c72-ccf06632bcf0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="025888b9-3fc4-455e-a996-94c5793308d9" />
+        <field name="Name" type="NameTableFieldDefinition" value="SHAPECHANGE_WOLF_1" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b5a5b652-26b8-4164-b703-c665372366f0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd2c1138dg1830g5790g739eg427bac2b46d4" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h425c5cb8gcf81g1225gc1cdgbd7af49113c6" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="BlockSpellCast();UnlockSpell(Shout_Shapechange_End);Resistance(Bludgeoning,Resistant);Resistance(Slashing,Resistant);Resistance(Piercing,Resistant);UnlockSpell(Shout_SpeakWithAnimals_BeastSpeech)" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics;BeastSpeech;AttackOfOpportunity" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="b1976b97-2dcc-46dc-a716-a45de16fe16a" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="f58b6b6e-0403-4078-9c72-ccf06632bcf0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b1e3f50b-1d7d-4e10-ac2c-0368bf85205f" />
+        <field name="Name" type="NameTableFieldDefinition" value="SHAPECHANGE_WEREWOLF" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="b5a5b652-26b8-4164-b703-c665372366f0" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_Shapechange_End);UnlockSpell(Target_Claws_Werewolf);UnlockSpell(Target_Multiattack_Werewolf);Resistance(Bludgeoning,Resistant);Resistance(Slashing,Resistant);Resistance(Piercing,Resistant);UnlockSpell(Shout_Disengage);UnlockSpell(Projectile_Jump);UnlockSpell(Shout_Hide);UnlockSpell(Shout_SpeakWithAnimals_BeastSpeech);AbilityOverrideMinimum(Strength,16);AbilityOverrideMinimum(Dexterity,13);AbilityOverrideMinimum(Constitution,14);IgnoreResistance(Piercing,Resistant);IgnoreResistance(Bludgeoning,Resistant);IgnoreResistance(Slashing,Resistant)" />
+        <field name="Passives" type="StringTableFieldDefinition" value="PackTactics;BeastSpeech;AttackOfOpportunity" />
+        <field name="TemplateID" type="StringTableFieldDefinition" value="e278d2ef-4ec2-4775-ac56-f2f8ebc6b168" />
+        <field name="StatusEffect" type="GuidObjectTableFieldDefinition" value="f58b6b6e-0403-4078-9c72-ccf06632bcf0" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h1411bb1eg6c3ega02bg756eg1eedeca3dfdc" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h20a9ba27g9a37gbb77gfa31gecdbff72eadb" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="4ac2c440-9b43-40ae-9b3d-a0fe0ef0443e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="46e828ae-8b18-4345-8217-c046c6e0bb5b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level1" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0a05896e-054d-4750-b22d-c9a3ba5c94f3" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level2" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="35e5f370-2e47-4493-acb9-891564c4264b" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level3" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="56e62fb6-1f31-49f6-b3a0-5a838c26f2ce" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level4" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="f7cf6a77-0404-4c91-a544-fc31a4406655" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level5" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="78e11d29-9a38-4b1e-a8dd-a5c75416ca31" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level6" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="3eee9f3c-0996-4f5e-8b90-827607b6951a" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level7" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="8b716feb-734b-4736-9f93-8e0ad5c08102" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level8" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bc843dce-5863-4fe7-9bba-ac1b960e6d40" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level9" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ea4e260c-e3aa-4f34-a3d8-3eaee456aba2" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level10" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="d78f7fbd-c25c-4a98-a631-ad4350c047a8" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level11" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="adeb86b6-9102-42af-9ed2-98015d6cd406" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level12" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Update ExtraData.Data.MaximumXPCap value when changing the sum of XP to get to max level" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="11b0d96f-fd73-4658-9d49-02b22d9906a0" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level13" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="14aaf8a8-c1fa-4791-9f23-037b90924b79" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level14" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="0e71bc1a-7181-45a0-ba6b-cd6814afa939" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level15" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e91610ee-e2cf-4da0-b058-60efc0dd6228" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level16" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="eab9413a-41fe-43a2-ab28-ba9b7684a540" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level17" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="89332738-e304-44ef-a869-7c05741e0540" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level18" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="9260ad94-d6f1-48c3-bf4e-48f18064b188" />
+        <field name="Name" type="NameTableFieldDefinition" value="Level19" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="35590eb3-3a23-4de4-ba8c-82bbaab837d7" />
+        <field name="Name" type="NameTableFieldDefinition" value="level20" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="24faf655-576c-4785-9eb1-292e55be0412" />
+        <field name="Name" type="NameTableFieldDefinition" value="MaxXPLevel" />
+        <field name="Value" type="IntegerTableFieldDefinition" value="20" />
+        <field name="Comment" type="CommentTableFieldDefinition" value="Important: update this accordingly! Should always be equal to the last (highest entered) level." />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
