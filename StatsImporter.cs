@@ -14,7 +14,9 @@ namespace stats_converter
         public string? StatType { get; set; }
         public string? TypeLine { get; set; }
         public int? LineCount { get; set; }
-        public string[]? DataLines { get; set; }
+
+        // remember to use foreach for these
+        public List<string>? DataLines { get; set; }
 
     }
 
@@ -25,30 +27,25 @@ namespace stats_converter
         public string? FilePath { get; set; }
         public string? StatType { get; set; }
         public XmlDocument XmlStatsFile = new();
-        public ImportObject[]? StatsObject { get; set; }
+        public IEnumerator? StatsNodes { get; set; }
+        // remember to use foreach for these
+        public List<ImportObject>? StatsObjects = new();
     }
 
 
     public class StatsImporter
     {
-        public static ImportObject? BuildImportObject(ImportFile tempFile)
+        // public static void BuildImportObject(ImportFile tempFile)
+        public static ImportObject BuildImportObject(ImportFile tempFile, XmlNode fieldNodes)
         {
             ImportObject tempStatObject = new();
-            tempFile.XmlStatsFile.Load(tempFile.FilePath);
-            IEnumerator statsNodes = tempFile.XmlStatsFile.DocumentElement.FirstChild.GetEnumerator();
-
-            // building code
-            // Console.WriteLine(file);
 
             tempStatObject.StatType = StatsFuncs.GetStatType(tempFile.FileName);
+            tempStatObject.DataLines = FileImporter.StatLineParser(tempStatObject.StatType, fieldNodes);
 
-            Console.WriteLine(tempStatObject.StatType);
+            // Console.WriteLine(tempStatObject.StatType);
 
-
-            return null;
-
-
-            // return tempStatObject;
+            return tempStatObject;
         }
 
     }
@@ -65,80 +62,56 @@ namespace stats_converter
             return value;
         }
 
+
         // make this a yield?
-        public static void FileParser(string file, IEnumerator statsNodes)
-        // public static ImportObject? FileParser(string file, IEnumerator statsNodes)
+        public static List<string>? StatLineParser(string StatType, XmlNode fieldNodes)
+        // public static ImportObject? StatLineParser(string file, IEnumerator statsNodes)
         {
-            while (statsNodes.MoveNext())
+            // tempStatObject = ImportBuildImportObject(file, tempStatObject);
+
+            for (int i = 0; i < fieldNodes.ChildNodes.Count; i++) 
             {
-                int nodeIndex = 0;
-                ImportObject tempStatObject = new();
-                XmlNode? statsNode = (XmlNode)statsNodes.Current;
-
-                tempStatObject = ConfigureStatObject(file, tempStatObject);
-                
-
-                foreach (XmlNode fieldsNode in statsNode.ChildNodes)
+                for (int j = 0; j < fieldNodes.ChildNodes[i].Attributes.Count; j++)
                 {
-                    // Console.WriteLine(fieldsNode.Name);
+                    string attrName = fieldNodes.ChildNodes[i].Attributes[j].Name;
+                    var attrValue = ValueFilter(fieldNodes.ChildNodes[i].Attributes[j].Value);
 
-                    for (int i = 0; i < fieldsNode.ChildNodes.Count; i++) 
+                    if (attrValue != null)
                     {
-                        for (int j = 0; j < fieldsNode.ChildNodes[i].Attributes.Count; j++)
-                        {
-                            string attrName = fieldsNode.ChildNodes[i].Attributes[j].Name.ToString();
-                            var attrValue = ValueFilter(fieldsNode.ChildNodes[i].Attributes[j].Value.ToString());
-
-                            if (attrValue != null)
-                            {
-                                // Console.WriteLine(attrValue);
-                            }
-
-                        }
-
+                        Console.WriteLine(attrValue);
                     }
-                    
-                }
-
-                if (tempStatObject != null)
-                {
-                    // return tempStatObject;
                 }
             }
 
-            // return null;
+            return null;
         }
 
         public static void Main()
         //public static void ImportStatsFile()
         {
-            ImportFile tempFile = new();
-
             string StatsFolderPath = "..\\..\\..\\test_files\\";
             string[] StatsFiles = Array.ConvertAll(Directory.GetFiles(StatsFolderPath, "*.stats"), file => Path.GetFileName(file));
             // string[] StatsFiles = ["carry weight extra_Data.stats"];
 
             foreach (string file in StatsFiles)
             {
+                ImportFile tempFile = new();
+
                 // need to deal with StatsFolderPath being empty
-                // this bit should be a separate function since a lot is happening
                 tempFile.FileName = Path.GetFileNameWithoutExtension(file);
-                tempFile.FilePath = file;
+                tempFile.FilePath = StatsFolderPath + file;
+                tempFile.XmlStatsFile.Load(tempFile.FilePath);
+                tempFile.StatsNodes = tempFile.XmlStatsFile.DocumentElement.FirstChild.GetEnumerator();
 
-
-
-                try
+                while (tempFile.StatsNodes.MoveNext())
                 {
-                    // var tempParsedFile = FileImporter.FileParser(file, statsNodes);
-                    StatsImporter.BuildImportObject(tempFile);
+                    XmlNode? statsNode = (XmlNode)tempFile.StatsNodes.Current;
+                    tempFile.StatsObjects.Add(StatsImporter.BuildImportObject(tempFile, statsNode.FirstChild));
+                    
+                    // Console.WriteLine(statsNode.FirstChild.InnerXml);
+                    // Console.WriteLine("\n\n");
 
-                    /*if (tempParsedFile != null)
-                    {
-                        tempFile.StatsObject.Append(tempParsedFile);
-                    } */   
                 }
-                catch { }
-                
             }
         }
     }
