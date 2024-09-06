@@ -36,6 +36,26 @@ while (my $row = <$fhRead>) { #read each line
   if (substr($row, 0, 10) eq "new entry "){
 	my $sub_string = substr($row, 10);
 	chomp $sub_string;
+	
+	my @statsprefix = (
+	  "Interrupt_", #new entry "Interrupt_HellishRebuke_4"
+	  "Projectile_",
+	  "Shout_",
+	  "Target_",
+	  "Teleportation_",
+	  "Wall_",
+	  "Zone_"
+	);
+	
+	my $prefixindexend = index($sub_string, '_');
+	my $nameprefix = substr($sub_string, 1, $prefixindexend);
+	
+	foreach (@statsprefix) {
+	  if ($nameprefix eq $_) {
+	    $sub_string = "\"" . substr($sub_string, $prefixindexend + 1); #remove the prefix
+	  }
+    }
+	
     print $fhWrite "        <field name=\"Name\" type=\"NameTableFieldDefinition\" value=$sub_string />\n";
   }
   #if (substr($row, 0, 6) eq "using "){ #does not support names, has to be the UUID
@@ -46,15 +66,14 @@ while (my $row = <$fhRead>) { #read each line
   if (substr($row, 0, 5) eq "data "){
 	my $nameindexend = index($row, '"', 7);
 	my $fieldname = substr($row, 5, ($nameindexend - 4));
-	if ($fieldname ne "\"SpellType\"" && $fieldname ne "\"StatusType\"") {
+	my $value = substr($row, $nameindexend + 2);
+	chomp $value;
+	if ($value ne "\"\"" && $fieldname ne "\"SpellType\"" && $fieldname ne "\"StatusType\"") {
 	  if ($fieldname eq "\"SpellAnimationIntentType\"") { #exception: SpellAnimationIntentType -> AnimationIntentType
 		  $fieldname = "\"AnimationIntentType\"";
 	  }
 	  print $fhWrite "        <field name=$fieldname";
 	  
-	  my $value = substr($row, $nameindexend + 2);
-	  chomp $value;
-		  
 	  #field types
 	  my @IdTableFieldDefinition = ( #not data
 		"\"UUID\"" #<field name="UUID" type="IdTableFieldDefinition" value="09a57b46-bdd5-4b2c-b87d-e5b91e3589a4" />
@@ -141,6 +160,7 @@ while (my $row = <$fhRead>) { #read each line
 		"\"TickType\"", #<field name="TickType" type="EnumerationTableFieldDefinition" value="StartTurn" enumeration_type_name="TickType" version="1" />
 		"\"LEDEffect\"", #<field name="LEDEffect" type="EnumerationTableFieldDefinition" value="NONE" enumeration_type_name="LEDEffectType" version="1" />
 		"\"ManagedStatusEffectType\"", #<field name="ManagedStatusEffectType" type="EnumerationTableFieldDefinition" value="Positive" enumeration_type_name="ManagedStatusEffectType" version="1" />
+		"\"DisableInteractions\"" #<field name="DisableInteractions" type="EnumerationTableFieldDefinition" value="No" enumeration_type_name="YesNo" version="1" />
 	  );
 	  my @enumerationtable_type_name = (
 		"\"SpellSchool\"",
@@ -181,7 +201,8 @@ while (my $row = <$fhRead>) { #read each line
 		"\"YesNo\"",
 		"\"TickType\"",
 		"\"LEDEffectType\"",
-		"\"ManagedStatusEffectType\""
+		"\"ManagedStatusEffectType\"",
+		"\"YesNo\""
 	  );
 	  my @StringTableFieldDefinition = (
 		"\"SpellContainerID\"", #<field name="SpellContainerID" type="StringTableFieldDefinition" value="Test" />
@@ -263,7 +284,13 @@ while (my $row = <$fhRead>) { #read each line
 		"\"Passives\"",
 		"\"TooltipSave\"",
 		"\"TooltipDamage\"",
-		"\"PerformEventName\""
+		"\"PerformEventName\"",
+		"\"Material\"",
+		"\"PolymorphResult\"",
+		"\"RetainSpells\"",
+		"\"Boosts\"",
+		"\"Passives\"",
+		"\"TemplateID\""
 	  );
 	  my @TranslatedStringTableFieldDefinition = (
 		"\"DisplayName\"", #<field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="he9fe2b39g1ae2g2899ga5ebg2183d8aad9d4" version="1" />
@@ -320,7 +347,8 @@ while (my $row = <$fhRead>) { #read each line
 		"\"StatusEffectOnTurn\"",
 		"\"ManagedStatusEffectGroup\"",
 		"\"EndEffect\"",
-		"\"DynamicAnimationTag\""
+		"\"DynamicAnimationTag\"",
+		"\"Rules\""
 	  );
 	  my @CastAnimationsTableFieldDefinition = (
 		"\"SpellAnimation\"", #<field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="f920a0a6-f257-4ce4-8d17-2dcaa7bb7bbb,,;7e67bfd0-2fc2-4d10-bed5-cfda9e660de5,,;eb054308-7fce-4b85-bf4c-7a0031fda7ac,,;0b0dc35b-4953-45c0-a9eb-8d3fef5e798a,,;6ec808e1-e128-44ef-9361-a713bf86de8f,,;b2e9c771-3497-444c-b360-23b4441985a1,,;f920a0a6-f257-4ce4-8d17-2dcaa7bb7bbb,,;,,;,," />
