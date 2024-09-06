@@ -2,6 +2,7 @@
 using System.Collections;
 using System;
 using System.Diagnostics.Contracts;
+using System.Linq;
 
 
 namespace stats_converter
@@ -21,6 +22,7 @@ namespace stats_converter
     public class ImportFile
     {
         public string? FileName { get; set; }
+        public string? FilePath { get; set; }
         public string? StatType { get; set; }
         public XmlDocument XmlStatsFile = new();
         public ImportObject[]? StatsObject { get; set; }
@@ -29,14 +31,24 @@ namespace stats_converter
 
     public class StatsImporter
     {
-        public static ImportObject BuildImportObject()
+        public static ImportObject? BuildImportObject(ImportFile tempFile)
         {
-            ImportObject tempObj = new();
+            ImportObject tempStatObject = new();
+            tempFile.XmlStatsFile.Load(tempFile.FilePath);
+            IEnumerator statsNodes = tempFile.XmlStatsFile.DocumentElement.FirstChild.GetEnumerator();
 
             // building code
+            // Console.WriteLine(file);
+
+            tempStatObject.StatType = StatsFuncs.GetStatType(tempFile.FileName);
+
+            Console.WriteLine(tempStatObject.StatType);
 
 
-            return tempObj;
+            return null;
+
+
+            // return tempStatObject;
         }
 
     }
@@ -44,31 +56,57 @@ namespace stats_converter
 
     public class FileImporter
     {
+        public static string? ValueFilter(string value)
+        {
+            if (value.Contains("FieldDefinition"))
+            {
+                return null;
+            }
+            return value;
+        }
+
         // make this a yield?
-        public static ImportObject FileParser(string file, IEnumerator statsNodes)
+        public static void FileParser(string file, IEnumerator statsNodes)
+        // public static ImportObject? FileParser(string file, IEnumerator statsNodes)
         {
             while (statsNodes.MoveNext())
             {
+                int nodeIndex = 0;
                 ImportObject tempStatObject = new();
-                XmlNode? statsNode;
-                statsNode = (XmlNode)statsNodes.Current;
+                XmlNode? statsNode = (XmlNode)statsNodes.Current;
 
-                // needs to hook into BuildImportObject
+                tempStatObject = ConfigureStatObject(file, tempStatObject);
+                
 
-                if (statsNode.NextSibling != null)
+                foreach (XmlNode fieldsNode in statsNode.ChildNodes)
                 {
-                    if (statsNode.NextSibling.HasChildNodes)
+                    // Console.WriteLine(fieldsNode.Name);
+
+                    for (int i = 0; i < fieldsNode.ChildNodes.Count; i++) 
                     {
-                        foreach (XmlElement line in statsNode.NextSibling.ChildNodes)
+                        for (int j = 0; j < fieldsNode.ChildNodes[i].Attributes.Count; j++)
                         {
-                            Console.WriteLine(line.InnerXml);
+                            string attrName = fieldsNode.ChildNodes[i].Attributes[j].Name.ToString();
+                            var attrValue = ValueFilter(fieldsNode.ChildNodes[i].Attributes[j].Value.ToString());
+
+                            if (attrValue != null)
+                            {
+                                // Console.WriteLine(attrValue);
+                            }
+
                         }
 
                     }
-
+                    
                 }
-                return tempStatObject;
+
+                if (tempStatObject != null)
+                {
+                    // return tempStatObject;
+                }
             }
+
+            // return null;
         }
 
         public static void Main()
@@ -85,12 +123,21 @@ namespace stats_converter
                 // need to deal with StatsFolderPath being empty
                 // this bit should be a separate function since a lot is happening
                 tempFile.FileName = Path.GetFileNameWithoutExtension(file);
+                tempFile.FilePath = file;
 
-                tempFile.XmlStatsFile.Load(StatsFolderPath + file);
-                IEnumerator statsNodes = tempFile.XmlStatsFile.DocumentElement.FirstChild.GetEnumerator();
 
-                tempFile.StatsObject.Append(FileImporter.FileParser(file, statsNodes));
 
+                try
+                {
+                    // var tempParsedFile = FileImporter.FileParser(file, statsNodes);
+                    StatsImporter.BuildImportObject(tempFile);
+
+                    /*if (tempParsedFile != null)
+                    {
+                        tempFile.StatsObject.Append(tempParsedFile);
+                    } */   
+                }
+                catch { }
                 
             }
         }

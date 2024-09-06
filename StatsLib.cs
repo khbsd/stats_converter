@@ -118,13 +118,13 @@ namespace stats_converter
             {
                 if (name.Contains(type))
                 {
-                    if (name.Contains("Interrupt") || name.Contains("Passive") || (name.Contains("Status") || StatsFuncs.NameContains(StatsData.StatusTypes, name)))
+                    if (name.Contains("Interrupt") || name.Contains("Passive") || (name.Contains("Status") || NameContains(StatsData.StatusTypes, name)))
                     {
                         return '"' + type + "Data\"";
                     }
                     return '"' + type + '"';
                 }
-                else if (StatsData.SpellTypes.Contains(name) || StatsFuncs.NameContains(StatsData.SpellTypes, name))
+                else if (StatsData.SpellTypes.Contains(name) || NameContains(StatsData.SpellTypes, name))
                 {
                     return "\"SpellData\"";
                 }
