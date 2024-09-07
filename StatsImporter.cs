@@ -13,6 +13,8 @@ namespace stats_converter
         public string? Description { get; set; }
         public string? StatType { get; set; }
         public string? TypeLine { get; set; }
+
+        // if value is 3, it means > 2 lines
         public int? LineCount { get; set; }
 
         // remember to use foreach for these
@@ -35,15 +37,33 @@ namespace stats_converter
 
     public class StatsImporter
     {
+        public static void BuildStatsHeader()
+        {
+            // detect stat type
+            // set expected LineCount
+            // 
+        }
+
+
         // public static void BuildImportObject(ImportFile tempFile)
         public static ImportObject BuildImportObject(ImportFile tempFile, XmlNode fieldNodes)
         {
             ImportObject tempStatObject = new();
 
             tempStatObject.StatType = StatsFuncs.GetStatType(tempFile.FileName);
+
+            // TODO: need a function to add intro lines and a way to ignore those in the StatLineParser() func
+            // make it change based on StatType
+            // tempStatObject.DataLines =
+
             tempStatObject.DataLines = FileImporter.StatLineParser(tempStatObject.StatType, fieldNodes);
 
-            // Console.WriteLine(tempStatObject.StatType);
+            Console.WriteLine(tempStatObject.StatType);
+
+            foreach (string line in tempStatObject.DataLines)
+            {
+                Console.WriteLine(line);
+            }
 
             return tempStatObject;
         }
@@ -63,11 +83,11 @@ namespace stats_converter
         }
 
 
-        // make this a yield?
+        // make this a yield? nah
         public static List<string>? StatLineParser(string StatType, XmlNode fieldNodes)
         // public static ImportObject? StatLineParser(string file, IEnumerator statsNodes)
         {
-            // tempStatObject = ImportBuildImportObject(file, tempStatObject);
+            List<string> tempStatList = new();
 
             for (int i = 0; i < fieldNodes.ChildNodes.Count; i++) 
             {
@@ -78,11 +98,15 @@ namespace stats_converter
 
                     if (attrValue != null)
                     {
-                        Console.WriteLine(attrValue);
+                        tempStatList.Add(attrValue);
                     }
                 }
             }
 
+            if (tempStatList.Count > 0)
+            {
+                return tempStatList;
+            }
             return null;
         }
 
@@ -90,8 +114,9 @@ namespace stats_converter
         //public static void ImportStatsFile()
         {
             string StatsFolderPath = "..\\..\\..\\test_files\\";
-            string[] StatsFiles = Array.ConvertAll(Directory.GetFiles(StatsFolderPath, "*.stats"), file => Path.GetFileName(file));
+            // string[] StatsFiles = Array.ConvertAll(Directory.GetFiles(StatsFolderPath, "*.stats"), file => Path.GetFileName(file));
             // string[] StatsFiles = ["carry weight extra_Data.stats"];
+            string[] StatsFiles = ["rangerbuff_Target.stats"];
 
             foreach (string file in StatsFiles)
             {
@@ -107,11 +132,7 @@ namespace stats_converter
                 {
                     XmlNode? statsNode = (XmlNode)tempFile.StatsNodes.Current;
                     tempFile.StatsObjects.Add(StatsImporter.BuildImportObject(tempFile, statsNode.FirstChild));
-                    
-                    // Console.WriteLine(statsNode.FirstChild.InnerXml);
-                    // Console.WriteLine("\n\n");
-
-                }
+                }   
             }
         }
     }
