@@ -12,13 +12,17 @@ namespace stats_converter
         public string? DisplayName { get; set; }
         public string? Description { get; set; }
         public string? StatType { get; set; }
-        public string? TypeLine { get; set; }
+
+        // new/key, type, and using lines
+        // if it's an ItemCombinationResult, will contain the entirety of the object
+        public List<string>? ObjHeader { get; set; }
 
         // if value is 3, it means > 2 lines
         public int? LineCount { get; set; }
 
         // remember to use foreach for these
-        public List<string>? DataLines { get; set; }
+        // all of the data lines
+        public Queue<string>? DataLines { get; set; }
 
     }
 
@@ -37,11 +41,11 @@ namespace stats_converter
 
     public class StatsImporter
     {
-        public static void BuildStatsHeader()
+        public static List<string>? BuildStatsHeader(Queue statsQueue)
         {
             // detect stat type
             // set expected LineCount
-            // 
+            // Dict with string key and list value 
         }
 
 
@@ -58,11 +62,11 @@ namespace stats_converter
 
             tempStatObject.DataLines = FileImporter.StatLineParser(tempStatObject.StatType, fieldNodes);
 
-            Console.WriteLine(tempStatObject.StatType);
+            // Console.WriteLine(tempStatObject.StatType);
 
             foreach (string line in tempStatObject.DataLines)
             {
-                Console.WriteLine(line);
+                // Console.WriteLine(line);
             }
 
             return tempStatObject;
@@ -84,10 +88,10 @@ namespace stats_converter
 
 
         // make this a yield? nah
-        public static List<string>? StatLineParser(string StatType, XmlNode fieldNodes)
+        public static Queue<string>? StatLineParser(string StatType, XmlNode fieldNodes)
         // public static ImportObject? StatLineParser(string file, IEnumerator statsNodes)
         {
-            List<string> tempStatList = new();
+            Queue<string> tempStatQueue = new();
 
             for (int i = 0; i < fieldNodes.ChildNodes.Count; i++) 
             {
@@ -96,16 +100,16 @@ namespace stats_converter
                     string attrName = fieldNodes.ChildNodes[i].Attributes[j].Name;
                     var attrValue = ValueFilter(fieldNodes.ChildNodes[i].Attributes[j].Value);
 
-                    if (attrValue != null)
+                    if (attrValue != null )
                     {
-                        tempStatList.Add(attrValue);
+                        tempStatQueue.Enqueue(attrValue);
                     }
                 }
             }
 
-            if (tempStatList.Count > 0)
+            if (tempStatQueue.Count > 0)
             {
-                return tempStatList;
+                return tempStatQueue;
             }
             return null;
         }
@@ -116,7 +120,7 @@ namespace stats_converter
             string StatsFolderPath = "..\\..\\..\\test_files\\";
             // string[] StatsFiles = Array.ConvertAll(Directory.GetFiles(StatsFolderPath, "*.stats"), file => Path.GetFileName(file));
             // string[] StatsFiles = ["carry weight extra_Data.stats"];
-            string[] StatsFiles = ["rangerbuff_Target.stats"];
+            string[] StatsFiles = ["rangerbuff_Character.stats"];
 
             foreach (string file in StatsFiles)
             {
