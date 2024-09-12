@@ -13,16 +13,19 @@ namespace stats_converter
         public string? Description { get; set; }
         public string? StatType { get; set; }
 
+        public List<string>? RawStats { get; set; }
+
         // new/key, type, and using lines
         // if it's an ItemCombinationResult, will contain the entirety of the object
-        public List<string>? ObjHeader { get; set; }
+        public OrderedDictionary<string, string?>? ObjHeader { get; set; }
 
         // if value is 3, it means > 2 lines
         public int? LineCount { get; set; }
 
         // remember to use foreach for these
         // all of the data lines
-        public Queue<string>? DataLines { get; set; }
+        public OrderedDictionary<string, List<string?>?> ObjBody { get; set; }
+        public OrderedDictionary<string, List<string?>?> ObjFooter { get; set; }
 
     }
 
@@ -41,11 +44,54 @@ namespace stats_converter
 
     public class StatsImporter
     {
-        public static List<string>? BuildStatsHeader(Queue statsQueue)
+        // public static void BuildStatsHeader(List<string> statsQueue)
+        public static OrderedDictionary<string, string?>? BuildStatsHeader(List<string>? rawDataList, string StatType)
         {
-            // detect stat type
-            // set expected LineCount
-            // Dict with string key and list value 
+            OrderedDictionary<string, string?>? tempObjHeader = new();
+
+            tempObjHeader.TryAdd("type", StatType);
+
+            for (int i = 0; i < rawDataList.Count; i++)
+            {
+                if (rawDataList[i] == "Name")
+                {
+                    tempObjHeader.Insert(0, "new entry", StatsFuncs.AddQuotes(rawDataList[i + 2]));
+
+                }
+                else if (rawDataList[i] == "Using")
+                {
+                    tempObjHeader.Insert(2, "using", StatsFuncs.AddQuotes(rawDataList[i + 2]));
+                }
+            }
+
+            return tempObjHeader;
+        }
+
+
+        public static OrderedDictionary<string, List<string?>?> BuildStatsBody(List<string>? rawDataList)
+        {
+            OrderedDictionary<string, List<string?>?> tempObjBody = new();
+
+            for (int i = 0; i < rawDataList.Count; i++)
+            {
+                List<string?> tempList = new();
+                if 
+                    (
+                        !StatsData.HeaderFields.Contains(rawDataList[i]) &&
+                        ((i + 2) < rawDataList.Count) &&
+                        FileImporter.ValueFilter(rawDataList[i]) != null
+                    )
+                {
+                    Console.WriteLine(rawDataList[i]);
+                    Console.WriteLine(StatsFuncs.AddQuotes(rawDataList[i + 2]));
+                    tempList.Append(StatsFuncs.AddQuotes(rawDataList[i + 2]));
+                    tempObjBody.TryAdd("data", tempList);
+
+                    // Console.WriteLine(i);
+                }
+            }
+
+            return tempObjBody;
         }
 
 
@@ -55,19 +101,23 @@ namespace stats_converter
             ImportObject tempStatObject = new();
 
             tempStatObject.StatType = StatsFuncs.GetStatType(tempFile.FileName);
+            tempStatObject.RawStats = FileImporter.StatLineParser(tempStatObject.StatType, fieldNodes);
+            tempStatObject.ObjHeader = BuildStatsHeader(tempStatObject.RawStats, tempStatObject.StatType);
+            tempStatObject.ObjBody = BuildStatsBody(tempStatObject.RawStats);
 
-            // TODO: need a function to add intro lines and a way to ignore those in the StatLineParser() func
-            // make it change based on StatType
-            // tempStatObject.DataLines =
-
-            tempStatObject.DataLines = FileImporter.StatLineParser(tempStatObject.StatType, fieldNodes);
-
-            // Console.WriteLine(tempStatObject.StatType);
-
-            foreach (string line in tempStatObject.DataLines)
+            /*foreach (KeyValuePair<string, string?> headerLine in tempStatObject.ObjHeader)
             {
-                // Console.WriteLine(line);
+                Console.WriteLine(headerLine.Key + " " + headerLine.Value);
+            }*/
+
+            foreach (KeyValuePair<string, List<string?>?> bodyLine in tempStatObject.ObjBody)
+            {
+                foreach (string? value in bodyLine.Value)
+                {
+                    Console.WriteLine(bodyLine.Key + " " + value);
+                }
             }
+
 
             return tempStatObject;
         }
@@ -88,21 +138,20 @@ namespace stats_converter
 
 
         // make this a yield? nah
-        public static Queue<string>? StatLineParser(string StatType, XmlNode fieldNodes)
+        public static List<string>? StatLineParser(string StatType, XmlNode fieldNodes)
         // public static ImportObject? StatLineParser(string file, IEnumerator statsNodes)
         {
-            Queue<string> tempStatQueue = new();
+            List<string> tempStatQueue = new();
 
             for (int i = 0; i < fieldNodes.ChildNodes.Count; i++) 
             {
                 for (int j = 0; j < fieldNodes.ChildNodes[i].Attributes.Count; j++)
-                {
-                    string attrName = fieldNodes.ChildNodes[i].Attributes[j].Name;
-                    var attrValue = ValueFilter(fieldNodes.ChildNodes[i].Attributes[j].Value);
+                { 
+                    var attrValue = fieldNodes.ChildNodes[i].Attributes[j].Value;
 
                     if (attrValue != null )
                     {
-                        tempStatQueue.Enqueue(attrValue);
+                        tempStatQueue.Add(attrValue);
                     }
                 }
             }

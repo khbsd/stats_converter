@@ -31,6 +31,19 @@ namespace stats_converter
             "DiceTableFieldDefinition"
         ];
 
+        // fields that only req the next value and nothing else
+        public static string[] PlusOneFields =
+        [
+            "Constitution"
+        ];
+
+
+        public static string[] PlusTwoFields =
+        [
+            "Proficiency Bonus Scaling"
+        ];
+            
+
         public static string[] PeskyFields =
         [
             "Properties",
@@ -96,6 +109,13 @@ namespace stats_converter
             "Weapon",
             "Character"
         ];
+
+
+        public static string[] HeaderFields =
+        [
+            "Name",
+            "Using"
+        ];
     }
 
     internal class StatsFuncs
@@ -110,6 +130,12 @@ namespace stats_converter
                 }
             }
             return false;
+        }
+
+        public static string AddQuotes(string value)
+        {
+            return '"' + value + '"';
+
         }
 
         public static string GetStatType(string name)
