@@ -75,19 +75,22 @@ namespace stats_converter
             for (int i = 0; i < rawDataList.Count; i++)
             {
                 List<string?> tempList = new();
-                if 
-                    (
-                        !StatsData.HeaderFields.Contains(rawDataList[i]) &&
-                        ((i + 2) < rawDataList.Count) &&
-                        FileImporter.ValueFilter(rawDataList[i]) != null
-                    )
+                if (!StatsData.HeaderFields.Contains(rawDataList[i]) && ((i + 2) < rawDataList.Count))
                 {
-                    Console.WriteLine(rawDataList[i]);
-                    Console.WriteLine(StatsFuncs.AddQuotes(rawDataList[i + 2]));
-                    tempList.Append(StatsFuncs.AddQuotes(rawDataList[i + 2]));
-                    tempObjBody.TryAdd("data", tempList);
 
-                    // Console.WriteLine(i);
+                    // blech i'll work on this tomorrow
+                    if 
+                    (
+                        FileImporter.ValueFilter(rawDataList[i]) != null &&
+                        FileImporter.ValueFilter(rawDataList[i + 1]) != null &&
+                        FileImporter.ValueFilter(rawDataList[i + 2]) != null
+                    )
+                    {
+                        Console.WriteLine(rawDataList[i]);
+                        Console.WriteLine(StatsFuncs.AddQuotes(rawDataList[i + 2]));
+                        tempList.Append(StatsFuncs.AddQuotes(rawDataList[i + 2]));
+                        tempObjBody.TryAdd("data", tempList);
+                    }
                 }
             }
 
