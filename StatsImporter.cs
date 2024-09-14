@@ -133,15 +133,15 @@ namespace stats_converter
             tempStatObject.RawStats = FileImporter.StatLineParser(tempStatObject.StatType, fieldNodes);
             
             
-            foreach (string Obj in tempStatObject.RawStats.Keys)
+            foreach (string Obj in tempStatObject.RawStats.Dict.Keys)
             {
                 Console.WriteLine(Obj);
                 
-                foreach (string stat in tempStatObject.RawStats[Obj].Keys)
+                foreach (string stat in tempStatObject.RawStats.Dict[Obj].Dict.Keys)
                 {
                     Console.WriteLine(stat);
 
-                    foreach (string value in tempStatObject.RawStats[Obj][stat].Values)
+                    foreach (string value in tempStatObject.RawStats.Dict[Obj].Dict[stat].Dict.Values)
                     {
                         Console.WriteLine(value);
                     }
@@ -206,12 +206,12 @@ namespace stats_converter
 
 
         // make this a yield? nah
-        public static OrderedDictionary<string, OrderedDictionary<string, StatFields>?>? StatLineParser
+        public static StatObject StatLineParser
         (
             string StatType, XmlNode fieldNodes
         )
         {
-            OrderedDictionary<string, OrderedDictionary<string, StatFields>?> tempStatDict = new();
+            StatObject tempStatDict = new();
 
             string? statObjectName = "";
 
@@ -238,8 +238,8 @@ namespace stats_converter
                         {
                             string statLineName = attrInitValue;
 
-                            OrderedDictionary<string, StatFields> tempLineDict = new();
-                            tempLineDict.TryAdd(statLineName, tempFieldDict);
+                            StatLines tempLineDict = new();
+                            tempLineDict.Dict.TryAdd(statLineName, tempFieldDict);
 
                             // Console.WriteLine(statLineName);
 
@@ -266,7 +266,7 @@ namespace stats_converter
                 tempStatDict.TryAdd(statObjectName, tempLineDict);
             }
 
-            if (tempStatDict.Count > 0)
+            if (tempStatDict.Dict.Count > 0)
             {
                 return tempStatDict;
             }
