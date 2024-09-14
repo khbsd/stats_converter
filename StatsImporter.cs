@@ -8,17 +8,35 @@ using System.Collections.Generic;
 
 namespace stats_converter
 {
+    public class StatFields
+    {
+        public OrderedDictionary<string, string?>? Dict { get; set; }
+    }
+
+
+    public class StatLines
+    {
+        public OrderedDictionary<string, StatFields>? Dict { get; set; }
+    }
+
+
+    public class StatObject
+    {
+        public OrderedDictionary<string, StatLines>? Dict { get; set; }
+    }
+
+
     public class ImportObject
     {
         public string? DisplayName { get; set; }
         public string? Description { get; set; }
         public string? StatType { get; set; }
 
-        public OrderedDictionary<string, OrderedDictionary<string, string?>?>? RawStats { get; set; }
+        public StatObject? RawStats { get; set; }
 
         // new/key, type, and using lines
         // if it's an ItemCombinationResult, will contain the entirety of the object
-        public OrderedDictionary<string, string?>? ObjHeader { get; set; }
+        public StatFields? ObjHeader { get; set; }
 
         // if value is 3, it means > 2 lines
         public int? LineCount { get; set; }
@@ -46,22 +64,22 @@ namespace stats_converter
     public class StatsImporter
     {
         // public static void BuildStatsHeader(List<string> statsQueue)
-        public static OrderedDictionary<string, string?>? BuildStatsHeader(List<string>? rawDataList, string StatType)
+        public static StatFields BuildStatsHeader(List<string>? rawDataList, string StatType)
         {
-            OrderedDictionary<string, string?>? tempObjHeader = new();
+            StatFields tempObjHeader = new();
 
-            tempObjHeader.TryAdd("type", StatType);
+            tempObjHeader.Dict.TryAdd("type", StatType);
 
             for (int i = 0; i < rawDataList.Count; i++)
             {
                 if (rawDataList[i] == "Name")
                 {
-                    tempObjHeader.Insert(0, "new entry", StatsFuncs.AddQuotes(rawDataList[i + 2]));
+                    tempObjHeader.Dict.Insert(0, "new entry", StatsFuncs.AddQuotes(rawDataList[i + 2]));
 
                 }
                 else if (rawDataList[i] == "Using")
                 {
-                    tempObjHeader.Insert(2, "using", StatsFuncs.AddQuotes(rawDataList[i + 2]));
+                    tempObjHeader.Dict.Insert(2, "using", StatsFuncs.AddQuotes(rawDataList[i + 2]));
                 }
             }
 
@@ -113,16 +131,24 @@ namespace stats_converter
 
             tempStatObject.StatType = StatsFuncs.GetStatType(tempFile.FileName);
             tempStatObject.RawStats = FileImporter.StatLineParser(tempStatObject.StatType, fieldNodes);
-
-            /*for (int i = 0; i < tempStatObject.RawStats.Count; i++)
+            
+            
+            foreach (string Obj in tempStatObject.RawStats.Keys)
             {
-                for (int j = 0; j < tempStatObject.RawStats.GetAt(i).Value.Count; j++)
-                { 
-                    Console.WriteLine(tempStatObject.RawStats.GetAt(i).Value.GetAt(j));
+                Console.WriteLine(Obj);
+                
+                foreach (string stat in tempStatObject.RawStats[Obj].Keys)
+                {
+                    Console.WriteLine(stat);
+
+                    foreach (string value in tempStatObject.RawStats[Obj][stat].Values)
+                    {
+                        Console.WriteLine(value);
+                    }
                 }
             }
-            */
             /* 
+            
             tempStatObject.ObjHeader = BuildStatsHeader(tempStatObject.RawStats, tempStatObject.StatType);
             tempStatObject.ObjBody = BuildStatsBody(tempStatObject.RawStats);
             tempStatObject.ObjFooter = BuildStatsFooter(tempStatObject.RawStats, tempStatObject.StatType);
@@ -165,17 +191,40 @@ namespace stats_converter
         }
 
 
+        public static string? GetObjectName(XmlAttributeCollection attributes)
+        {
+            for (int i = 0; i < attributes.Count; i++)
+            {
+                if (attributes[i].Value.Equals("Name"))
+                {
+                    return attributes[i + 2].Value;
+                }
+                
+            }
+            return null;
+        }
+
+
         // make this a yield? nah
-        public static OrderedDictionary<string, OrderedDictionary<string, string?>?>? StatLineParser
+        public static OrderedDictionary<string, OrderedDictionary<string, StatFields>?>? StatLineParser
         (
             string StatType, XmlNode fieldNodes
         )
         {
-            OrderedDictionary<string, OrderedDictionary<string, string?>?> tempStatDict = new();
-            OrderedDictionary<string, string?> tempFieldDict = new();
+            OrderedDictionary<string, OrderedDictionary<string, StatFields>?> tempStatDict = new();
+
+            string? statObjectName = "";
 
             for (int i = 0; i < fieldNodes.ChildNodes.Count; i++) 
             {
+                int nameCounter = 0;
+                while (string.IsNullOrEmpty(statObjectName))
+                {
+                    statObjectName = GetObjectName(fieldNodes.ChildNodes[nameCounter].Attributes);
+                    // Console.WriteLine(statObjectName);
+                    nameCounter++;
+                }
+                
                 for (int j = 0; j < fieldNodes.ChildNodes[i].Attributes.Count; j++)
                 { 
                     var attrInitValue = fieldNodes.ChildNodes[i].Attributes[j].Value;
@@ -185,35 +234,36 @@ namespace stats_converter
 
                     if (attrInitValue != null)
                     {
-                        if (attrInitValue == "Name")
+                        if (attrInitName == "name")
                         {
-                            string statObjectName = fieldNodes.ChildNodes[i].Attributes[j + 2].Value;
+                            string statLineName = attrInitValue;
 
-                            Console.WriteLine(statObjectName);
-                            i++;
+                            OrderedDictionary<string, StatFields> tempLineDict = new();
+                            tempLineDict.TryAdd(statLineName, tempFieldDict);
 
-                            tempStatDict.TryAdd(statObjectName, tempFieldDict);
+                            // Console.WriteLine(statLineName);
 
-                            for (int k = 0; k < fieldSize; k++)
+                            for (int k = 1; k < fieldSize; k++)
                             {
-                                if (j + k < fieldNodes.ChildNodes[i].Attributes.Count)
+                                if (j + k <  fieldNodes.ChildNodes[i].Attributes.Count)
                                 {
                                     var subAttrValue = fieldNodes.ChildNodes[i].Attributes[j + k].Value;
                                     var subAttrName = fieldNodes.ChildNodes[i].Attributes[j + k].Name;
 
-                                    Console.WriteLine(subAttrName + ": " + subAttrValue);
+                                    // Console.WriteLine(subAttrName + ": " + subAttrValue);
 
-                                    // tempStatDict[statObjectName].TryAdd(subAttrName, subAttrValue);
-
-                                    Console.WriteLine(tempStatDict[statObjectName].Values);
+                                    tempFieldDict.TryAdd(subAttrName, subAttrValue);
                                 }
-                                // i++;
+                                    
                             }
+
                             j = fieldSize;
                         }
                         
                     }
                 }
+
+                tempStatDict.TryAdd(statObjectName, tempLineDict);
             }
 
             if (tempStatDict.Count > 0)

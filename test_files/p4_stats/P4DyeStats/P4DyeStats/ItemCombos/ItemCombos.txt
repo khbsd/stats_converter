@@ -773,8 +773,8 @@ data "Transform 1" "None"
 data "Type 2" "Category"
 data "Object 2" "DyableArmor"
 data "Transform 2" "Dye"
-data "DyeColorPresetResource" "d6310def-9dd1-0a28-4837-9a976ad0b758"
+    data "Result 1" "1"
+
 
 new ItemCombinationResult "OBJ_Dye_P4_Arabella_1"
-data "Result 1" "1"
-
+data "DyeColorPresetResource" "d6310def-9dd1-0a28-4837-9a976ad0b758"

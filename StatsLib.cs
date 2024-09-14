@@ -35,6 +35,7 @@ namespace stats_converter
         public static string[] QuadFields =
         [
             "Proficiency Bonus Scaling",
+            "ProficiencyBonus"
         ];
             
 
