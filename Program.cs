@@ -35,7 +35,7 @@ public class StatsImporter_Old
         "DiceTableFieldDefinition"
     ];
 
-    public static string[] PeskyFields =
+    public static string[] QuintFields =
     [
         "Properties",
         "PreviewCursor",
@@ -327,7 +327,7 @@ public class StatsImporter_Old
                                     i += 2;
                                     break;
                                 }
-                                else if (PeskyFields.Contains(attrVal.ToString()))
+                                else if (QuintFields.Contains(attrVal.ToString()))
                                 {
                                     builtField += '"' + attrVal + '"' + " " + '"' + node.Attributes[i + 2].Value.ToString() + '"';
 

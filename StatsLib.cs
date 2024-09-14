@@ -31,20 +31,14 @@ namespace stats_converter
             "DiceTableFieldDefinition"
         ];
 
-        // fields that only req the next value and nothing else
-        public static string[] PlusOneFields =
-        [
-            "Constitution"
-        ];
 
-
-        public static string[] PlusTwoFields =
+        public static string[] QuadFields =
         [
-            "Proficiency Bonus Scaling"
+            "Proficiency Bonus Scaling",
         ];
             
 
-        public static string[] PeskyFields =
+        public static string[] QuintFields =
         [
             "Properties",
             "PreviewCursor",
@@ -112,7 +106,7 @@ namespace stats_converter
 
 
         public static string[] HeaderFields =
-        [
+        [   
             "Name",
             "Using"
         ];
@@ -131,6 +125,22 @@ namespace stats_converter
             }
             return false;
         }
+
+
+        public static int GetFieldCount(string value)
+        {
+            if (StatsData.QuintFields.Contains(value))
+            {
+                return 5;
+            }
+            else if (StatsData.QuadFields.Contains(value))
+            {
+                return 4;
+            } 
+                
+            return 3;
+        }
+
 
         public static string AddQuotes(string value)
         {
