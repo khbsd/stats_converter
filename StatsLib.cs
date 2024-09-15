@@ -128,6 +128,15 @@ namespace stats_converter
         }
 
 
+        public static void DictTester(OrderedDictionary<string, string> dict)
+        {
+            foreach (string key in dict.Keys)
+            {
+                Console.WriteLine(key + ": " + dict[key]);
+            }
+        }
+
+
         public static int GetFieldCount(string value)
         {
             if (StatsData.QuintFields.Contains(value))
