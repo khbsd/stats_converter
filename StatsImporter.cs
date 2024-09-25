@@ -5,6 +5,22 @@ using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Collections.Generic;
 
+/*
+[filename][object name][object stat line][stat field]
+
+>> ImportObject.RawStats["rangerbuff_Character.stats"]["Companion_Wolf_7"]["UUID"]["value"]
+
+returns: f862e70a-8a86-4a30-9b07-caa46007366e
+
+<field name="UUID" type="IdTableFieldDefinition" value="f862e70a-8a86-4a30-9b07-caa46007366e" />
+<field name="Name" type="NameTableFieldDefinition" value="Companion_Wolf_7" />
+<field name="Using" type="BaseClassTableFieldDefinition" value="a9781b07-b2cc-4154-b09c-cd6e2ea5bf55" />
+<field name="Passives" type="StringTableFieldDefinition" value="HuntersMark_RangerCompanion;PackTactics;ShortResting;CompanionsBond_Creature" />
+<field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY:PLAYER_BONUSES_EASYMODE" />
+<field name="Dexterity" type="IntegerTableFieldDefinition" value="24" />
+<field name="Constitution" type="IntegerTableFieldDefinition" value="21" />
+<field name="Vitality" type="IntegerTableFieldDefinition" value="61" />
+*/
 
 namespace stats_converter
 {
@@ -55,7 +71,7 @@ namespace stats_converter
     }*/
 
 
-    public class ImportObject
+public class ImportObject
     {
         public string? DisplayName { get; set; }
         public string? Description { get; set; }
@@ -159,8 +175,6 @@ namespace stats_converter
             tempStatObject.StatType = StatsFuncs.GetStatType(tempFile.FileName);
             tempStatObject.RawStats = FileImporter.StatLineParser(tempStatObject.StatType, fieldNodes);
 
-            // StatsFuncs.DictTester(tempStatObject.RawStats);
-            
             /* 
             foreach (var Obj in tempStatObject.RawStats)
             {
@@ -220,6 +234,7 @@ namespace stats_converter
         }
 
 
+
         public static string? GetObjectName(XmlAttributeCollection attributes)
         {
             for (int i = 0; i < attributes.Count; i++)
@@ -241,6 +256,7 @@ namespace stats_converter
         )
         {
             string? statObjectName = "";
+            string statLineName = "";
 
             OrderedDictionary<string, OrderedDictionary<string, OrderedDictionary<string, string?>?>?>? tempStatDict = new();
             OrderedDictionary<string, OrderedDictionary<string, string?>?>? tempLineDict;
@@ -256,11 +272,11 @@ namespace stats_converter
                     nameCounter++;
                 }
 
+                tempLineDict = new();
+                tempStatDict.TryAdd(statObjectName, tempLineDict);
+
                 for (int j = 0; j < fieldNodes.ChildNodes[i].Attributes.Count; j++)
                 {
-                    tempLineDict = new();
-                    tempStatDict.TryAdd(statObjectName, tempLineDict);
-
                     var attrInitValue = fieldNodes.ChildNodes[i].Attributes[j].Value;
                     var attrInitName = fieldNodes.ChildNodes[i].Attributes[j].Name;
 
@@ -268,39 +284,44 @@ namespace stats_converter
 
                     if (attrInitValue != null)
                     {
-                        string statLineName;
+                        tempFieldDict = new();
 
-                        if (j == 0)
+                        int k = 0;
+                        while (k < fieldSize)
                         {
-                            statLineName = attrInitValue;
-                            Console.WriteLine(statLineName);
-
-                            tempFieldDict = new();
-                            tempLineDict.TryAdd(statLineName, tempFieldDict);
-
-                            for (int k = 0; k < fieldSize; k++)
+                            if (j == 0)
                             {
-                                if (j + k <  fieldNodes.ChildNodes[i].Attributes.Count)
+                                statLineName = attrInitValue;
+                            }
+
+                            if (j + k < fieldNodes.ChildNodes[i].Attributes.Count)
+                            {
+                                var subAttrValue = fieldNodes.ChildNodes[i].Attributes[j + k].Value;
+                                var subAttrName = fieldNodes.ChildNodes[i].Attributes[j + k].Name;
+
+                                if (string.IsNullOrEmpty(subAttrValue))
                                 {
-                                    var subAttrValue = fieldNodes.ChildNodes[i].Attributes[j + k].Value;
-                                    var subAttrName = fieldNodes.ChildNodes[i].Attributes[j + k].Name;
+                                    subAttrValue = "\"\"";
+                                }
 
-                                    if (string.IsNullOrEmpty(subAttrValue))
-                                    {
-                                        subAttrValue = "\"\"";
-                                    }
-
-                                    // Console.WriteLine(subAttrName + ": " + subAttrValue);
+                                if (!string.IsNullOrEmpty(statLineName))
+                                {
                                     tempLineDict[statLineName].Add(subAttrName, subAttrValue);
+
+                                    // Console.WriteLine(tempLineDict[statLineName][subAttrName]);
+                                    // Console.WriteLine(tempLineDict[statLineName].GetAt(k));
                                 }
                             }
+                            // Console.WriteLine(j);
+                            k++;
                         }
-                        j += fieldSize;
                     }
-                   // Console.WriteLine(j + ": ");
+                    // Console.WriteLine(statObjectName);
+                    
                 }
-                
             }
+
+            // Console.WriteLine(tempStatDict["Companion_Wolf"]);
 
             if (tempStatDict.Count > 0)
             {
@@ -331,9 +352,23 @@ namespace stats_converter
                 {
                     XmlNode? statsNode = (XmlNode)tempFile.StatsNodes.Current;
                     tempFile.StatsObjects.Add(StatsImporter.BuildImportObject(tempFile, statsNode.FirstChild));
-                }   
+                }
+
+                foreach (ImportObject obj in tempFile.StatsObjects)
+                {
+                    foreach (var pair in obj.RawStats)
+                    {
+                        // Console.WriteLine(pair.Key);
+                        // Console.WriteLine(pair.Value);
+
+                        foreach (var sub_pair in pair.Value)
+                        {
+                            Console.WriteLine(sub_pair.Key);
+                            // Console.WriteLine(sub_pair.Value);
+                        }
+                    }
+                }
             }
         }
     }
 }
-
