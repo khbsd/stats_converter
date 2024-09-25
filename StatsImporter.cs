@@ -8,7 +8,7 @@ using System.Collections.Generic;
 /*
 [filename][object name][object stat line][stat field]
 
->> ImportObject.RawStats["rangerbuff_Character.stats"]["Companion_Wolf_7"]["UUID"]["value"]
+>> ImportObject.RawStats["Companion_Wolf_7"]["UUID"]["value"]
 
 returns: f862e70a-8a86-4a30-9b07-caa46007366e
 
